@@ -24,7 +24,7 @@ export default function Main() {
       {!isVideoLoaded && (
         <Image
           src="/thumb.jpg"
-          alt="Background placeholder"
+          alt="Thumbnail Video Institucional"
           layout="fill"
           objectFit="cover"
           priority
@@ -44,7 +44,7 @@ export default function Main() {
       {/* Overlay to ensure text readability */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-      <div className="container mx-auto px-4 z-10">
+    <div className="container mx-auto px-4 mt-[-20rem] md:mt-[-8.5rem] z-10">
         <div className="max-w-2xl text-white">
           <div className="inline-block bg-[#e8ffa8] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">
             #1 Em Soluções Digitais
@@ -63,7 +63,7 @@ export default function Main() {
           </div>
 
           <Button asChild className="bg-[#CB6CE6] hover:bg-[#7800FF] text-white px-8 py-3 rounded-full text-lg transition-colors duration-300">
-            <Link href="/solucoes">
+            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer">
               Fale Conosco
             </Link>
           </Button>

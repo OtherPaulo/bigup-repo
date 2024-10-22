@@ -120,7 +120,7 @@ export default function Header() {
         </nav>
 
           <div className="hidden md:flex items-center">
-            <Link href="/contato" className="bg-[#CB6CE6] px-4 py-2 rounded-full hover:bg-[#CB6CE6] transition-colors">
+            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#CB6CE6] px-4 py-2 rounded-full hover:bg-[#CB6CE6] transition-colors">
               Entre em Contato
             </Link>
           </div>
@@ -137,7 +137,7 @@ export default function Header() {
             <Link href="/solucoes" className="hover:text-gray-300">SOLUÇÕES</Link>
             <Link href="/cases" className="hover:text-gray-300">CASES</Link>
             <Link href="/blog" className="hover:text-gray-300">BLOG</Link>
-            <Link href="/contato" className="bg-[#CB6CE6] px-4 py-2 rounded-md hover:bg-[#CB6CE6] transition-colors text-center">
+            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#CB6CE6] px-4 py-2 rounded-md hover:bg-[#CB6CE6] transition-colors text-center">
               Entre em Contato
             </Link>
           </nav>
