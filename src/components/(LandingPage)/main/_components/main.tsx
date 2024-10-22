@@ -38,7 +38,7 @@ export default function Main() {
         muted 
         className={`absolute w-full h-full object-cover duration-1000 ${isVideoLoaded ? 'opacity-100' : 'opacity-100'}`}
       >
-        <source src="/video3.mp4" type="video/mp4" />
+        <source src="https://klirva.nyc3.cdn.digitaloceanspaces.com/video3%20(1)%20(1).mp4" type="video/mp4" />
       </video>
 
       {/* Overlay to ensure text readability */}
