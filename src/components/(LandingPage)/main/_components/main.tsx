@@ -1,18 +1,42 @@
+"use client"
+
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from "@/components/ui/button"
-import { FlipWords } from '@/components/ui/flip-words';
+import { FlipWords } from '@/components/ui/flip-words'
 
 export default function Main() {
-    const words = ["Branding", "Loja Virtual", "Social Media", "Sites Profissionais"];
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false)
+  const words = ["Branding", "Loja Virtual", "Social Media", "Sites Profissionais"]
+
+  useEffect(() => {
+    const video = document.querySelector('video')
+    if (video) {
+      video.addEventListener('loadeddata', () => setIsVideoLoaded(true))
+      return () => video.removeEventListener('loadeddata', () => setIsVideoLoaded(true))
+    }
+  }, [])
 
   return (
     <section className="relative min-h-[93vh] flex items-center overflow-hidden">
+      {/* Background Image (shown while video is loading) */}
+      {!isVideoLoaded && (
+        <Image
+          src="/thumb.jpg"
+          alt="Background placeholder"
+          layout="fill"
+          objectFit="cover"
+          priority
+        />
+      )}
+
       {/* Background Video */}
       <video 
         autoPlay 
         loop 
         muted 
-        className="absolute w-full h-full object-cover"
+        className={`absolute w-full h-full object-cover duration-1000 ${isVideoLoaded ? 'opacity-100' : 'opacity-100'}`}
       >
         <source src="/video3.mp4" type="video/mp4" />
       </video>
@@ -22,9 +46,9 @@ export default function Main() {
 
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl text-white">
-        <div className="inline-block bg-[#e8ffa8] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">
+          <div className="inline-block bg-[#e8ffa8] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">
             #1 Em Soluções Digitais
-            </div>
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             IMPULSIONAMOS SUA MARCA COM ESTRATÉGIAS DIGITAIS
           </h1>
@@ -32,10 +56,10 @@ export default function Main() {
             Marketing, E-commerce e Vendas.
           </p>
           <div className='mb-8 flex'>
-          <p className="text-lg md:text-xl ">
-            Estratégias para 
-          </p>
-          <FlipWords words={words} className="text-lg md:text-xl " />
+            <p className="text-lg md:text-xl">
+              Estratégias para 
+            </p>
+            <FlipWords words={words} className="text-lg md:text-xl" />
           </div>
 
           <Button asChild className="bg-[#CB6CE6] hover:bg-[#7800FF] text-white px-8 py-3 rounded-full text-lg transition-colors duration-300">
