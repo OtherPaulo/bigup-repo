@@ -8,7 +8,7 @@ import { FlipWords } from '@/components/ui/flip-words'
 
 export default function Main() {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false)
-  const words = ["Branding", "Loja Virtual", "Social Media", "Sites Profissionais"]
+  const words = ["Branding", "Social Media", "Loja Virtual", "Sites Profissionais"]
 
   useEffect(() => {
     const video = document.querySelector('video')
@@ -44,12 +44,12 @@ export default function Main() {
       {/* Overlay to ensure text readability */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-    <div className="container mx-auto px-4 mt-[-20rem] md:mt-[-8.5rem] z-10">
+    <div className="container mx-auto px-4 mt-[-14rem] md:mt-[-12.5rem] z-10">
         <div className="max-w-2xl text-white">
           <div className="inline-block bg-[#e8ffa8] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">
             #1 Em Soluções Digitais
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl md:text-4xl font-bold mb-6 leading-tight">
             IMPULSIONAMOS SUA MARCA COM ESTRATÉGIAS DIGITAIS
           </h1>
           <p className="text-xl md:text-2xl mb-4">
