@@ -19,7 +19,7 @@ export default function Main() {
   }, [])
 
   return (
-    <section className="relative min-h-[93vh] flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image (shown while video is loading) */}
       {!isVideoLoaded && (
         <Image
