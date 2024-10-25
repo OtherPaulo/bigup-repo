@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Big.up - Agência de Estratégias Digitais",
+  title: "BIG DEAL MARKETING - Agência de Estratégias Digitais",
   description: "Agência #1 em Soluções e Estratégias Digitais.",
   icons: {
     icon: "/favicon.ico",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   ],
   openGraph: {
-    title: "Big.up - Agência de Estratégias Digitais",
+    title: "BIG DEAL MARKETING - Agência de Estratégias Digitais",
     description: "Agência #1 em Soluções e Estratégias Digitais.",
     images: [
       {

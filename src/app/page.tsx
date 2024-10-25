@@ -1,7 +1,12 @@
+import SectionBlog from "@/components/(LandingPage)/blogSection/_components/blog"
+import { Cases } from "@/components/(LandingPage)/carrossel-cases/_components/cases"
+import Contato from "@/components/(LandingPage)/contato/_components/contato"
+import CTA from "@/components/(LandingPage)/cta/_components/cta"
+import Estatisticas from "@/components/(LandingPage)/estatisticas/_components/estatisticas"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import Header from "@/components/(LandingPage)/header/_components/header"
 import Main from '@/components/(LandingPage)/main/_components/main'
-import ProductGrid from "@/components/(LandingPage)/product-grid/_components/product-grid"
+import ServicesSection from "@/components/(LandingPage)/services/_components/services"
 import Chat from "@/components/chat/_components/chat"
 
 export default function Home() {
@@ -10,8 +15,13 @@ export default function Home() {
       <Header/>
       <main>
         <Main/>
-        <ProductGrid/>
+        <Estatisticas/>
+        <ServicesSection/>
+        <CTA/>
+        <Cases/>
         <Chat/>
+        <SectionBlog/>
+        {/* <Contato />; */}
       </main>
       <Footer/>
     </>
