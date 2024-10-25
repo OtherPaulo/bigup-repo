@@ -1,6 +1,5 @@
 import SectionBlog from "@/components/(LandingPage)/blogSection/_components/blog"
 import { Cases } from "@/components/(LandingPage)/carrossel-cases/_components/cases"
-import Contato from "@/components/(LandingPage)/contato/_components/contato"
 import CTA from "@/components/(LandingPage)/cta/_components/cta"
 import Estatisticas from "@/components/(LandingPage)/estatisticas/_components/estatisticas"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
