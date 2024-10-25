@@ -39,15 +39,15 @@ const blogPosts = [
 export default function SectionBlog() {
   return (
     <div className="container mx-auto mb-8  md:py-8 px-4">
-      <div className="flex justify-between items-center mb-8">
-        <div>
-          <h2 className="text-sm font-semibold text-gray-500 mb-2">BLOG</h2>
-          <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
-        </div>
-        <Link href="/blog" className="bg-[#CB6CE6]/90 rounded-full px-4 py-2 text-white hover:bg-[#CB6CE6]/90">
-          Veja todos
-        </Link>
+    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+      <div className="mb-4 md:mb-0">
+        <h2 className="text-sm font-semibold text-gray-500 mb-2">BLOG</h2>
+        <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
       </div>
+      <Link href="/blog" className="bg-[#CB6CE6]/90 rounded-full px-4 py-2 text-white hover:bg-[#CB6CE6]/90">
+        Veja todos
+      </Link>
+    </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogPosts.map((post) => (
           <Link href={post.link} key={post.id} className="group">
