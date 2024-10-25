@@ -38,7 +38,7 @@ const blogPosts = [
 
 export default function SectionBlog() {
   return (
-    <div className="container mx-auto  md:py-8 px-4">
+    <div className="container mx-auto mb-8  md:py-8 px-4">
       <div className="flex justify-between items-center mb-8">
         <div>
           <h2 className="text-sm font-semibold text-gray-500 mb-2">BLOG</h2>
