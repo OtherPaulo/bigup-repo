@@ -29,13 +29,13 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <Link href="https://www.instagram.com/agenciabigdeal/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Instagram size={24} />
               </Link>
-              <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <Link href="https://www.facebook.com/people/Big-Deal-Marketing/61567310259741/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Facebook size={24} />
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <Link href="https://www.linkedin.com/company/agenciabigdeal/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Linkedin size={24} />
               </Link>
             </div>
