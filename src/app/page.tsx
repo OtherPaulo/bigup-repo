@@ -14,7 +14,7 @@ export default function Home() {
       <Header/>
       <main>
         <Main/>
-        <Estatisticas/>
+        {/* <Estatisticas/> */}
         <ServicesSection/>
         <CTA/>
         <Cases/>
