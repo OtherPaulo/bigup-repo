@@ -22,7 +22,7 @@ const blogPosts = [
         author: "Felipe Zavatti",
         authorImage: "/perfil.jpg?height=40&width=40",
         image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
-        link: "/blog/ia-generativa"
+        link: "/blog/post/metaverso"
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ const blogPosts = [
         author: "Felipe Zavatti",
         authorImage: "/perfil.jpg?height=40&width=40",
         image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
-        link: "/blog/squad-solucoes-digitais"
+        link: "/blog/post/estrategia-para-marketing"
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ const blogPosts = [
         author: "Felipe Zavatti",
         authorImage: "/perfil.jpg?height=40&width=40",
         image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
-        link: "/blog/tendencias-tech-2023"
+        link: "/blog/post/como-ter-um-site-responsivo"
     }
 ]
 
@@ -79,7 +79,6 @@ export default function FeaturedPostsCarousel() {
                                     <CardContent className="p-0">
                                         <a
                                             href={post.link}
-                                            target="_blank"
                                             rel="noopener noreferrer"
                                             className="block"
                                         >

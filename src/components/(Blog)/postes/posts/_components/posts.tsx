@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { BadgeCheck } from 'lucide-react';
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
+import { Card, CardFooter, CardHeader } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const blogPosts = [
@@ -36,13 +36,13 @@ const blogPosts = [
   }
 ]
 
-export default function PostsBlog() {
+export default function PostesBlog() {
   return (
     <div className="container mx-auto mt-4 mb-8  md:py-8 px-4">
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
       <div className="mb-4 md:mb-0">
         <h2 className="text-sm font-semibold text-gray-500 mb-2">POSTS</h2>
-        <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
+        <h1 className="text-3xl font-bold text-white">Acompanhe nossos conteúdos</h1>
       </div>
     </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
