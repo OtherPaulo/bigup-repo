@@ -5,22 +5,22 @@ export default function ServicesSection() {
     {
       icon: <Award className="w-12 h-12 text-purple-500" />,
       title: "BRANDING",
-      description: "No competitivo mercado atual, construir uma marca forte é essencial para se destacar e conquistar a confiança do consumidor. Nosso serviço de branding oferece uma abordagem completa para ajudar sua empresa a criar uma identidade única e memorável."
+      description: "Nosso serviço de branding oferece uma abordagem completa para ajudar sua empresa a criar uma identidade única e memorável."
     },
     {
       icon: <ShoppingCart className="w-12 h-12 text-purple-500" />,
       title: "E–COMMERCE",
-      description: "No mundo digital de hoje, ter uma presença online forte é essencial para o sucesso de qualquer negócio. Nossos serviços de e-commerce são projetados para ajudar sua empresa a construir e otimizar sua loja virtual, proporcionando uma experiência de compra excepcional para seus clientes."
+      description: "Nossos serviços de e-commerce são projetados para ajudar sua empresa a construir e otimizar sua loja virtual, proporcionando uma experiência de compra excepcional para seus clientes."
     },
     {
       icon: <Play className="w-12 h-12 text-purple-500" />,
       title: "SOCIAL MEDIA",
-      description: "Em um mundo cada vez mais conectado, a presença nas redes sociais é fundamental para o sucesso de qualquer marca. Nossos serviços de social media são projetados para ajudar sua empresa a construir uma comunidade engajada, fortalecer sua imagem e impulsionar suas vendas."
+      description: "Nossos serviços de social media são projetados para ajudar sua empresa a construir uma comunidade engajada, fortalecer sua imagem e impulsionar suas vendas."
     },
     {
       icon: <Headset className="w-12 h-12 text-purple-500" />,
       title: "Suporte e Consultoria",
-      description: "No ambiente dinâmico e competitivo dos negócios, ter uma estratégia de marketing bem definida é fundamental para o sucesso. Nossos serviços de suporte e consultoria em marketing oferecem a expertise necessária para ajudar sua empresa a alcançar seus objetivos e se destacar no mercado."
+      description: "Nossos serviços de suporte e consultoria em marketing oferecem a expertise necessária para ajudar sua empresa a alcançar seus objetivos e se destacar no mercado."
     }
   ]
 
