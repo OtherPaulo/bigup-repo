@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { BadgeCheck } from 'lucide-react';
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
+import { Card, CardFooter, CardHeader } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const blogPosts = [
@@ -41,10 +41,10 @@ export default function SectionBlog() {
     <div className="container mx-auto mb-8  md:py-8 px-4">
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
       <div className="mb-4 md:mb-0">
-        <h2 className="text-sm font-semibold text-gray-500 mb-2">BLOG</h2>
-        <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
+      <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mb-8">Blog</div>
+      <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
       </div>
-      <Link href="/blog" className="bg-[#CB6CE6]/90 rounded-full px-4 py-2 text-white hover:bg-[#CB6CE6]/90">
+      <Link href="/blog" className="bg-black rounded-full px-4 py-2 text-white hover:bg-[#CB6CE6]/90">
         Veja todos
       </Link>
     </div>
@@ -58,21 +58,21 @@ export default function SectionBlog() {
                   alt={post.title}
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
-                <div className="absolute top-4 left-4 rounded-full bg-[#CB6CE6]/90 text-white px-2 py-1 text-sm font-semibold">
+                <div className="absolute top-4 left-4 rounded-full bg-[#aeff00]/90 text-black px-2 py-1 text-sm font-semibold">
                   {post.date}
                 </div>
               </div>
-              <div className="group-hover:bg-[#CB6CE6]/90 transition-colors duration-300">
+              <div className="group-hover:bg-[#aeff00]/90 transition-colors duration-300">
                 <CardHeader>
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-white transition-colors duration-300">{post.title}</h3>
-                  <p className="text-gray-600 group-hover:text-white transition-colors duration-300">{post.description}</p>
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-black transition-colors duration-300">{post.title}</h3>
+                  <p className="text-gray-600 group-hover:text-black transition-colors duration-300">{post.description}</p>
                 </CardHeader>
                 <CardFooter className="flex items-center pt-4">
                   <Avatar className="h-10 w-10 mr-3">
                     <AvatarImage src={post.authorImage} alt={post.author} />
                     <AvatarFallback>{post.author[0]}</AvatarFallback>
                   </Avatar>
-                  <span className="text-sm font-medium group-hover:text-white transition-colors duration-300">{post.author}</span>
+                  <span className="text-sm font-medium group-hover:text-black transition-colors duration-300">{post.author}</span>
                   <BadgeCheck className='w-4 h-4 ml-1 text-blue-500'/>
                 </CardFooter>
               </div>
