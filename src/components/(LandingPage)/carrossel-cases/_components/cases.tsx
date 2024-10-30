@@ -7,10 +7,10 @@ export function Cases() {
 }
 export const products = [
   {
-    title: "Us Clean Cosmetics",
+    title: "Nutty Friends",
     link: "https://www.uscleancosmetics.com/",
     thumbnail:
-      "/nut2.jpg",
+      "/nut1.png",
   },
   {
     title: "Nutty Friends",
@@ -19,23 +19,35 @@ export const products = [
       "/nut2.jpg",
   },
   {
-    title: "Mega Zavatti",
+    title: "Nutty Friends",
     link: "https://www.meggazavatti.com.br/",
     thumbnail:
-      "/nut2.jpg",
+      "/nut3.png",
   },
 
   {
-    title: "Cury e Cury",
+    title: "Us Clean Cosmetics",
     link: "https://www.curyecury.adv.br/",
     thumbnail:
-      "/nut2.jpg",
+      "/us1.png",
   },
   {
     title: "Us Clean Cosmetics",
     link: "https://www.uscleancosmetics.com/",
     thumbnail:
-      "/nut2.jpg",
+      "/us2.png",
+  },
+  {
+    title: "Clean Cosmetics",
+    link: "https://www.instagram.com/nuttyfriends/",
+    thumbnail:
+      "/us3.png",
+  },
+  {
+    title: "Nutty Friends",
+    link: "https://www.uscleancosmetics.com/",
+    thumbnail:
+      "/nut1.png",
   },
   {
     title: "Nutty Friends",
@@ -44,23 +56,16 @@ export const products = [
       "/nut2.jpg",
   },
   {
-    title: "Mega Zavatti",
+    title: "Nutty Friends",
     link: "https://www.meggazavatti.com.br/",
     thumbnail:
-      "/nut2.jpg",
-  },
-
-  {
-    title: "Cury e Cury",
-    link: "https://www.curyecury.adv.br/",
-    thumbnail:
-      "/nut2.jpg",
+      "/nut3.png",
   },
   {
-    title: "Us Clean Cosmetics",
+    title: "Nutty Friends",
     link: "https://www.uscleancosmetics.com/",
     thumbnail:
-      "/nut2.jpg",
+      "/nut1.png",
   },
   {
     title: "Nutty Friends",
@@ -69,35 +74,28 @@ export const products = [
       "/nut2.jpg",
   },
   {
-    title: "Mega Zavatti",
+    title: "Nutty Friends",
     link: "https://www.meggazavatti.com.br/",
     thumbnail:
-      "/nut2.jpg",
+      "/nut3.png",
   },
   {
     title: "Us Clean Cosmetics",
     link: "https://www.uscleancosmetics.com/",
     thumbnail:
-      "/nut2.jpg",
+      "/us1.png",
   },
   {
-    title: "Nutty Friends",
+    title: "Us Clean Cosmetics",
+    link: "https://www.uscleancosmetics.com/",
+    thumbnail:
+      "/us2.png",
+  },
+  {
+    title: "Clean Cosmetics",
     link: "https://www.instagram.com/nuttyfriends/",
     thumbnail:
-      "/nut2.jpg",
-  },
-  {
-    title: "Mega Zavatti",
-    link: "https://www.meggazavatti.com.br/",
-    thumbnail:
-      "/nut2.jpg",
-  },
-
-  {
-    title: "Cury e Cury",
-    link: "https://www.curyecury.adv.br/",
-    thumbnail:
-      "/nut2.jpg",
+      "/us3.png",
   },
 
 ];
