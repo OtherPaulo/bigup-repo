@@ -1,12 +1,21 @@
-import Image from 'next/image'
+import GridPattern from '@/components/ui/grid-pattern'
+import { cn } from '@/lib/utils'
+import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 
 export default function CTA() {
   return (
-    <section className="relative overflow-hidden rounded-lg">
+    <section className="relative bg-black overflow-hidden rounded-lg">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#CB6CE6]/90 to-[#7800FF]/90" />
-      
+      <GridPattern
+        width={20}
+        height={20}
+        x={-1}
+        y={-1}
+        className={cn(
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,white)] ",
+        )}
+      />      
       {/* Content container */}
       <div className="relative container mx-auto px-4 py-16 md:py-16 flex flex-col md:flex-row items-center">
         {/* Text content */}
@@ -17,7 +26,7 @@ export default function CTA() {
           <p className="text-lg mb-8 ">
             Descubra como nossas soluções inovadoras podem transformar seu negócio e expandir seu alcance.
           </p>
-          <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#7800FF] px-4 py-2 rounded-full hover:bg-[#7800FF] transition-colors">
+          <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
               Fale com um Especialista
             </Link>
         </div>
