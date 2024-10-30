@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Menu, X } from 'lucide-react'
+import { ArrowUpRight, Menu, X } from 'lucide-react'
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -26,11 +26,11 @@ export default function Header() {
   }, [])
 
   const headerBg = scrollY > 50
-    ? 'bg-gradient-to-r from-[#CB6CE6]/90 to-[#7800FF]/90'
+    ? 'bg-primary/90 backdrop-blur-md z-50'
     : 'bg-transparent'
 
   const menuBg = isMenuOpen
-    ? 'bg-gradient-to-r from-[#CB6CE6]/90 to-[#7800FF]/90'
+    ? 'bg-primary/90 backdrop-blur-md z-50'
     : headerBg
 
   return (
@@ -131,8 +131,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center">
-            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#CB6CE6] px-4 py-2 rounded-full hover:bg-[#CB6CE6] transition-colors">
+            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] flex text-black px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
               Entre em Contato
+              <ArrowUpRight className="w-6 h-6 text-black" />
             </Link>
           </div>
           <button className="lg:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -148,7 +149,7 @@ export default function Header() {
             <Link href="/solucoes" className="hover:text-gray-300">SOLUÇÕES</Link>
             <Link href="/cases" className="hover:text-gray-300">CASES</Link>
             <Link href="/blog" className="hover:text-gray-300">BLOG</Link>
-            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#CB6CE6] px-4 py-2 rounded-md hover:bg-[#CB6CE6] transition-colors text-center">
+            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#ffffff] text-black px-4 py-2 rounded-md hover:bg-[#aeff00] transition-colors text-center">
               Entre em Contato
             </Link>
           </nav>
