@@ -17,7 +17,7 @@ export default function ComponentRotate() {
         >
           <Image
         src="/we-think-big.webp"
-        alt="Explore More"
+        alt="We Think Big"
         width={160}
         height={160}
         className="w-full h-full"
