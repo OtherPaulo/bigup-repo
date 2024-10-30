@@ -1,74 +1,90 @@
-"use client"
-
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Button } from "@/components/ui/button"
-import { FlipWords } from '@/components/ui/flip-words'
+import Link from "next/link"
+import { ArrowUpRight } from "lucide-react"
+import Rotate from "@/components/ui/rotate"
+import { FlipWords } from "@/components/ui/flip-words"
+import GridPattern from "@/components/ui/grid-pattern"
+import { cn } from "@/lib/utils"
 
 export default function Main() {
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false)
   const words = ["Branding", "Social Media", "Loja Virtual", "Sites Profissionais"]
 
-  useEffect(() => {
-    const video = document.querySelector('video')
-    if (video) {
-      video.addEventListener('loadeddata', () => setIsVideoLoaded(true))
-      return () => video.removeEventListener('loadeddata', () => setIsVideoLoaded(true))
-    }
-  }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image (shown while video is loading) */}
-      {!isVideoLoaded && (
-        <Image
-          src="/thumb.jpg"
-          alt="Thumbnail Video Institucional"
-          layout="fill"
-          objectFit="cover"
-          priority
-        />
-      )}
-
-      {/* Background Video */}
-      <video 
-        autoPlay 
-        loop 
-        muted 
-        className={`absolute w-full h-full object-cover duration-1000 ${isVideoLoaded ? 'opacity-100' : 'opacity-100'}`}
-      >
-        <source src="https://klirva.nyc3.cdn.digitaloceanspaces.com/video3%20(1)%20(1).mp4" type="video/mp4" />
-      </video>
-
-      {/* Overlay to ensure text readability */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-
-    <div className="container mx-auto px-4 mt-[-14rem] md:mt-[-12.5rem] z-10">
-        <div className="max-w-2xl text-white">
-          <div className="inline-block bg-[#e8ffa8] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">
-            #1 Em Soluções Digitais
-          </div>
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 leading-tight">
-            IMPULSIONAMOS SUA MARCA COM ESTRATÉGIAS DIGITAIS
-          </h1>
-          <p className="text-xl md:text-2xl mb-4">
-            Marketing, E-commerce e Vendas.
-          </p>
-          <div className='mb-8 flex'>
-            <p className="text-lg md:text-xl">
-              Estratégias para 
-            </p>
-            <FlipWords words={words} className="text-lg md:text-xl" />
-          </div>
-
-          <Button asChild className="bg-[#CB6CE6] hover:bg-[#7800FF] text-white px-8 py-3 rounded-full text-lg transition-colors duration-300">
-            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer">
-              Fale Conosco
-            </Link>
-          </Button>
+    <div>
+ 
+    <section className="relative min-h-auto w-full bg-black px-4 py-12 text-white md:px-6 lg:px-8">
+    <GridPattern
+        width={20}
+        height={20}
+        x={-1}
+        y={-1}
+        className={cn(
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,white)] ",
+        )}
+      />
+      <div className="container mt-12 px-4 mx-auto">
+        {/* Top right explore button */}
+        <div className="absolute right-8  z-10  md:block">
+            <div className="absolute inset-0 ml-[-6.6rem] mt-[31.5rem] lg:mt-14 md:ml-[-28rem] animate-spin-slow">
+              {/* <Rotate /> */}
+            </div>
         </div>
-      </div>
+
+        <div className="grid gap-8 md:grid-cols-2 md:gap-12">
+          {/* Left content */}
+          <div className="space-y-6 z-10">
+          <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">#1 Em Soluções Digitais</div>
+            <h1 className="text-2xl font-bold leading-tight md:text-xl lg:text-5xl">
+            IMPULSIONAMOS SUA MARCA COM{" "}
+              <span className="relative">
+              ESTRATÉGIAS
+          <span className="absolute bottom-1 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
+              </span>{" "}
+              DIGITAIS
+            </h1>
+            <p className="text-sm text-gray-400">
+            Marketing, E-commerce e Vendas.
+            </p>
+            <h2 className="text-lg md:text-lg lg:text-xl">
+            Estratégias para
+            <FlipWords words={words} className="text-lg md:text-lg lg:text-xl" />
+            </h2>
+            <div className="flex flex-wrap gap-4">
+              <Link
+          href="#"
+          className="rounded-full flex bg-[#AEFF00] px-8 py-3 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
+              >
+          Inicie seu projeto
+          <ArrowUpRight className="w-6 h-6 text-black" />
+              </Link>
+              <Link
+          href="#"
+          className="rounded-full flex border border-white/20 bg-transparent px-12 py-3 text-base font-semibold text-white transition-colors hover:bg-white/10"
+              >
+          Quem somos
+          <ArrowUpRight className="w-6 h-6 text-white" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Right content - Image grid */}
+          <div className="relative mt-8 md:mt-0">
+              <div className="relative overflow-hidden">
+                <img
+                  src="/image-home.png"
+                  alt="Team working"
+                  width={300}
+                  height={200}
+                  className="h-auto w-full md:w-3/4 md:h-3/4 md:ml-28 object-cover"
+                />
+                <div className="absolute top-16 right-[4rem] lg:left-[30rem]">
+                  <Rotate />
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
     </section>
+    </div>
   )
 }
