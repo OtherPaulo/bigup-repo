@@ -49,7 +49,7 @@ export default function MainServices() {
               <p className="text-white">
                 Para assegurar o êxito de cada projeto, vamos além das habilidades técnicas; nosso compromisso é: 
                 <span className="block text-xl md:text-2xl font-bold mt-2">
-                  "Prover ao cliente sempre a melhor solução."
+                  &quot;Prover ao cliente sempre a melhor solução.&quot;
                 </span>
               </p>
             </div>

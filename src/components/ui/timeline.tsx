@@ -41,10 +41,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">JORNADA</div>
 
         <h2 className="text-lg md:text-4xl mt-8 mb-4 text-white">
-          Command - One-stop Shop
+          One-stop Shop
         </h2>
         <p className="text-white text-sm md:text-base ">
-          Com a abordagem "One-Stop Shop", oferecemos uma parceria integral e
+          Com a abordagem &quot;One-Stop Shop&quot;, oferecemos uma parceria integral e
           eficaz em todas as fases do desenvolvimento da sua solução. Isso
           garante maior qualidade e previsibilidade, permitindo que você foque
           no crescimento do seu negócio.
