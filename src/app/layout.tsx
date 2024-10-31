@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "BIG DEAL MARKETING - Agência de Estratégias Digitais",
-  description: "Agência #1 em Soluções e Estratégias Digitais.",
+  description: "Agência de Soluções e Estratégias Digitais.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "BIG DEAL MARKETING - Agência de Estratégias Digitais",
-    description: "Agência #1 em Soluções e Estratégias Digitais.",
+    description: "Agência de Soluções e Estratégias Digitais.",
     images: [
       {
-        url: "https://bigup.devpaulorodrigues.tech/preview-bigup.jpeg",
-        alt: "Agência #1 em Soluções e Estratégias Digitais.",
+        url: "https://bigup.devpaulorodrigues.tech/preview-bigup.png",
+        alt: "Agência de Soluções e Estratégias Digitais.",
       }
     ],
     authors: "Paulo",
