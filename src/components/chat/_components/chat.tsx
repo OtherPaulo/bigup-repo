@@ -32,7 +32,7 @@ export default function Chat() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (message.trim()) {
-      const phoneNumber = '5592994094783'
+      const phoneNumber = '5511953843871'
       const encodedMessage = encodeURIComponent(message)
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
       window.open(whatsappUrl, '_blank')

@@ -35,12 +35,12 @@ export default function ProductGrid() {
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-xl md:text-4xl font-bold text-center mb-2">
-                <span className="text-[#CB6CE6]">DESIGN</span> DE PRODUTOS DIGITAIS
-            </h1>
-            <p className="text-xl text-center text-gray-600 mb-8">
-                Tendências em marketing digital
-            </p>
+      <h1 className="text-2xl md:text-5xl font-bold dark:text-white">
+        Confira nossos cases de sucesso
+      </h1>
+      <p className=" text-base md:text-xl mt-8 mb-16 dark:text-neutral-200">
+      Cada cliente é único, nossas soluções são moldadas para atender às suas necessidades específicas. Trabalhamos lado a lado para entender sua visão e desenvolver estratégias sob medida.
+      </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:px-28">
                 {images.map((image, i) => (
                     <div key={i} className="rounded-lg overflow-hidden shadow-lg aspect-square">

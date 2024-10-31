@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
-import Rotate from "@/components/ui/rotate"
 import { FlipWords } from "@/components/ui/flip-words"
 import GridPattern from "@/components/ui/grid-pattern"
 import { cn } from "@/lib/utils"
@@ -32,56 +31,53 @@ export default function Main() {
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-12">
           {/* Left content */}
-          <div className="space-y-6 z-10">
-          <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">#1 Em Soluções Digitais</div>
-            <h1 className="text-2xl font-bold leading-tight md:text-xl lg:text-5xl">
+          <div className="space-y-6 z-10 min-h-screen">
+          {/* <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">#1 Em Soluções Digitais</div> */}
+            <h1 className="text-2xl mt-52 font-bold leading-tight md:text-xl lg:text-5xl">
             IMPULSIONAMOS SUA MARCA COM{" "}
               <span className="relative">
-              ESTRATÉGIAS
+              ESTRATÉGIAS DIGITAIS
           <span className="absolute bottom-1 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
               </span>{" "}
-              DIGITAIS
+         
             </h1>
-            <p className="text-sm text-gray-400">
-            Marketing, E-commerce e Vendas.
-            </p>
             <h2 className="text-lg md:text-lg lg:text-xl">
-            Estratégias para
+            Soluções para
             <FlipWords words={words} className="text-lg md:text-lg lg:text-xl" />
             </h2>
             <div className="flex flex-wrap gap-4">
-              <Link
-          href="#"
-          className="rounded-full flex bg-[#AEFF00] px-8 py-3 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
-              >
+            <Link
+            href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank"
+            className="rounded-full flex bg-[#AEFF00] px-8 py-3 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
+            >
           Inicie seu projeto
           <ArrowUpRight className="w-6 h-6 text-black" />
               </Link>
-              <Link
-          href="#"
+              {/* <Link
+          href="/quem-somos"
           className="rounded-full flex border border-white/20 bg-transparent px-12 py-3 text-base font-semibold text-white transition-colors hover:bg-white/10"
               >
           Quem somos
           <ArrowUpRight className="w-6 h-6 text-white" />
-              </Link>
+              </Link> */}
             </div>
           </div>
 
           {/* Right content - Image grid */}
-          <div className="relative mt-8 md:mt-0">
+          {/* <div className="relative md:mt-0">
               <div className="relative overflow-hidden">
                 <img
-                  src="/image-home.png"
+                  src="/elements.png"
                   alt="Team working"
                   width={300}
                   height={200}
-                  className="h-auto w-full md:w-3/4 md:h-3/4 md:ml-28 object-cover"
+                  className="h-auto w-full  mt-44 md:ml-28 object-cover"
                 />
                 <div className="absolute top-16 right-[4rem] lg:left-[30rem]">
                   <Rotate />
                 </div>
               </div>
-            </div>
+            </div> */}
             </div>
           </div>
     </section>

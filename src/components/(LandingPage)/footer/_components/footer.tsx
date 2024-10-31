@@ -9,22 +9,21 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h2 className="text-lg font-bold mb-4">Potencializamos seu negócio através de estratégias de marketing & vendas</h2>
-            <p className="mb-4">Desafios digitais?</p>
-            <p className="mb-6">NÓS TE AJUDAMOS!</p>
+            <h2 className="text-lg font-bold mb-4">Potencializamos seu negócio através de<br /> estratégias  de marketing & vendas</h2>
+            {/* <p className="mb-4">Desafios digitais?</p>
+            <p className="mb-6">NÓS TE AJUDAMOS!</p> */}
             <div className="hidden lg:flex items-center">
-            <Link href="https://api.whatsapp.com/send/?phone=5592994094783" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
+            {/* <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
               Entre em Contato
               <ArrowUpRight className="w-6 h-6 text-black" />
-            </Link>
+            </Link> */}
             </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Links úteis</h3>
             <ul className="space-y-2">
               <li><Link href="/quem-somos" className="hover:underline">QUEM SOMOS</Link></li>
-              <li><Link href="/projetos" className="hover:underline">PROJETOS</Link></li>
-              <li><Link href="/solucoes" className="hover:underline">SOLUÇÕES</Link></li>
+              <li><Link href="/serviços" className="hover:underline">SERVIÇOS</Link></li>
               <li><Link href="/cases" className="hover:underline">CASES</Link></li>
               <li><Link href="/blog" className="hover:underline">BLOG</Link></li>
             </ul>
@@ -32,10 +31,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <Link href="https://www.instagram.com/agenciabigdeal/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <Link href="https://www.instagram.com/bigdealmarketing/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Instagram size={24} />
               </Link>
-              <Link href="https://www.facebook.com/people/Big-Deal-Marketing/61567310259741/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <Link href="https://web.facebook.com/people/Big-Deal-Marketing/61567310259741/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Facebook size={24} />
               </Link>
               <Link href="https://www.linkedin.com/company/agenciabigdeal/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">

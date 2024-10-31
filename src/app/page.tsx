@@ -4,8 +4,10 @@ import CTA from "@/components/(LandingPage)/cta/_components/cta"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import Header from "@/components/(LandingPage)/header/_components/header"
 import Main from '@/components/(LandingPage)/main/_components/main'
+import ProductGrid from "@/components/(LandingPage)/product-grid/_components/product-grid"
 import ServicesSection from "@/components/(LandingPage)/services/_components/services"
 import Chat from "@/components/chat/_components/chat"
+import Cookies from "@/components/cookies"
 
 export default function Home() {
   return (
@@ -16,10 +18,11 @@ export default function Home() {
         {/* <Estatisticas/> */}
         <ServicesSection/>
         <CTA/>
-        <Cases/>
+        <ProductGrid/>
+                {/* <Contato />; */}
+        <Cookies/>
         <Chat/>
         <SectionBlog/>
-        {/* <Contato />; */}
       </main>
       <Footer/>
     </>
