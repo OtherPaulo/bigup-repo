@@ -32,7 +32,7 @@ export default function Post3() {
       </CardHeader>
       <CardContent>
         <img
-          src="/placeholder.svg?height=400&width=800"
+          src="/responsive.jpg?height=400&width=800"
           alt="Site Responsivo em Diferentes Dispositivos"
           className="w-full h-64 object-cover rounded-lg mb-6"
         />

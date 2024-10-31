@@ -4,7 +4,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Header from "@/components/(LandingPage)/header/_components/header"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
-import PostsBlog from "@/components/(Blog)/posts/_components/posts"
 import PostesBlog from "@/components/(Blog)/postes/posts/_components/posts"
 
 export default function Metaverso() {
@@ -33,7 +32,7 @@ export default function Metaverso() {
       </CardHeader>
       <CardContent>
         <img
-          src="/placeholder.svg?height=400&width=800"
+          src="/metaverso.jpg?height=400&width=800"
           alt="Metaverso e IA"
           className="w-full h-64 object-cover rounded-lg mb-6"
         />

@@ -1,48 +1,48 @@
 import Link from 'next/link'
 import { BadgeCheck } from 'lucide-react';
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
+import { Card, CardFooter, CardHeader } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const blogPosts = [
   {
     id: 1,
     date: "27 SET",
-    title: "7 Aplicações da IA Generativa para Impulsionar sua Empresa",
-    description: "A inteligência artificial generativa oferece diversas oportunidades para melhorar a eficiência e a inovação nos negócios...",
+    title: "Metaverso: Um Grande Passo para os Chatbots e Outras IAs",
+    description: "O metaverso está emergindo como uma nova fronteira digital, e com ele surgem oportunidades inovadoras para o uso de chatbots e inteligência artificial...",
     author: "Felipe Zavatti",
     authorImage: "/perfil.jpg?height=40&width=40",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
+    image: "/metaverso.jpg",
     link: "/blog/post/metaverso"
   },
   {
     id: 2,
-    date: "27 SET",
-    title: "6 Motivos para implantar uma Squad para impulsionar suas soluções digitais",
-    description: "A formação de squads é uma solução eficaz para empresas que buscam aumentar a produtividade e a qualidade. A colaboração...",
+    date: "12 SET",
+    title: "Estratégias de Marketing Digital para Marcas",
+    description: "No cenário digital atual, uma estratégia de marketing eficaz é essencial para que sua marca se destaque e alcance seus objetivos de negócio...",
     author: "Felipe Zavatti",
     authorImage: "/perfil.jpg?height=40&width=40",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
+    image: "/estrategia.png",
     link: "/blog/post/estrategia-para-marketing"
   },
   {
     id: 3,
-    date: "27 SET",
-    title: "Principais Tendências Tech para o Segundo Semestre de 2023",
-    description: "As 5 principais tendências para o segundo semestre de 2023 no mercado tech incluem a ascensão da IA Adaptável, a ênfase na cultura...",
+    date: "22 AGO",
+    title: "Como Ter um Site Responsivo",
+    description: "Em um mundo onde o acesso à internet é cada vez mais feito por dispositivos móveis, ter um site responsivo é fundamental para garantir uma boa experiência ao usuário...",
     author: "Felipe Zavatti",
     authorImage: "/perfil.jpg?height=40&width=40",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
+    image: "/website.jpg",
     link: "/blog/post/como-ter-um-site-responsivo"
   }
 ]
 
 export default function PostsBlog() {
   return (
-    <div className="container mx-auto mt-4 mb-8  md:py-8 px-4">
+    <div className="container mx-auto mb-8  md:py-8 px-4">
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
       <div className="mb-4 md:mb-0">
-        <h2 className="text-sm font-semibold text-gray-500 mb-2">POSTS</h2>
-        <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
+      <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mb-8">Blog</div>
+      <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
       </div>
     </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -55,21 +55,21 @@ export default function PostsBlog() {
                   alt={post.title}
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
-                <div className="absolute top-4 left-4 rounded-full bg-[#CB6CE6]/90 text-white px-2 py-1 text-sm font-semibold">
+                <div className="absolute top-4 left-4 rounded-full bg-[#aeff00]/90 text-black px-2 py-1 text-sm font-semibold">
                   {post.date}
                 </div>
               </div>
-              <div className="group-hover:bg-[#CB6CE6]/90 transition-colors duration-300">
+              <div className="group-hover:bg-[#aeff00]/90 transition-colors duration-300">
                 <CardHeader>
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-white transition-colors duration-300">{post.title}</h3>
-                  <p className="text-gray-600 group-hover:text-white transition-colors duration-300">{post.description}</p>
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-black transition-colors duration-300">{post.title}</h3>
+                  <p className="text-gray-600 group-hover:text-black transition-colors duration-300">{post.description}</p>
                 </CardHeader>
                 <CardFooter className="flex items-center pt-4">
                   <Avatar className="h-10 w-10 mr-3">
                     <AvatarImage src={post.authorImage} alt={post.author} />
                     <AvatarFallback>{post.author[0]}</AvatarFallback>
                   </Avatar>
-                  <span className="text-sm font-medium group-hover:text-white transition-colors duration-300">{post.author}</span>
+                  <span className="text-sm font-medium group-hover:text-black transition-colors duration-300">{post.author}</span>
                   <BadgeCheck className='w-4 h-4 ml-1 text-blue-500'/>
                 </CardFooter>
               </div>

@@ -32,7 +32,7 @@ export default function EstrategiaPost() {
       </CardHeader>
       <CardContent>
         <img
-          src="/placeholder.svg?height=400&width=800"
+          src="/estrategia.png?height=400&width=800"
           alt="Estratégias de Marketing Digital"
           className="w-full h-64 object-cover rounded-lg mb-6"
         />

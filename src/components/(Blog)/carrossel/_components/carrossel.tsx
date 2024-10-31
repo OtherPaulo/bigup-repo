@@ -17,31 +17,31 @@ const blogPosts = [
     {
         id: 1,
         date: "27 SET",
-        title: "7 Aplicações da IA Generativa para Impulsionar sua Empresa",
-        description: "A inteligência artificial generativa oferece diversas oportunidades para melhorar a eficiência e a inovação nos negócios...",
+        title: "Metaverso: Um Grande Passo para os Chatbots e Outras IAs",
+        description: "O metaverso está emergindo como uma nova fronteira digital, e com ele surgem oportunidades inovadoras para o uso de chatbots e inteligência artificial...",
         author: "Felipe Zavatti",
         authorImage: "/perfil.jpg?height=40&width=40",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
+        image: "/metaverso.jpg",
         link: "/blog/post/metaverso"
     },
     {
         id: 2,
-        date: "27 SET",
-        title: "6 Motivos para implantar uma Squad para impulsionar suas soluções digitais",
-        description: "A formação de squads é uma solução eficaz para empresas que buscam aumentar a produtividade e a qualidade. A colaboração...",
+        date: "12 SET",
+        title: "Estratégias de Marketing Digital para Marcas",
+        description: "No cenário digital atual, uma estratégia de marketing eficaz é essencial para que sua marca se destaque e alcance seus objetivos de negócio...",
         author: "Felipe Zavatti",
         authorImage: "/perfil.jpg?height=40&width=40",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
+        image: "/estrategia.png",
         link: "/blog/post/estrategia-para-marketing"
     },
     {
         id: 3,
-        date: "27 SET",
-        title: "Principais Tendências Tech para o Segundo Semestre de 2023",
-        description: "As 5 principais tendências para o segundo semestre de 2023 no mercado tech incluem a ascensão da IA Adaptável, a ênfase na cultura...",
+        date: "22 AGO",
+        title: "Como Ter um Site Responsivo",
+        description: "Em um mundo onde o acesso à internet é cada vez mais feito por dispositivos móveis, ter um site responsivo é fundamental para garantir uma boa experiência ao usuário...",
         author: "Felipe Zavatti",
         authorImage: "/perfil.jpg?height=40&width=40",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nvEPJzn7pNhFg3d4xNtYfjfLL4CK4A.png",
+        image: "/website.jpg",
         link: "/blog/post/como-ter-um-site-responsivo"
     }
 ]
@@ -89,11 +89,11 @@ export default function FeaturedPostsCarousel() {
                                                         alt={post.title}
                                                         width={600}
                                                         height={400}
-                                                        className="h-48 w-full object-cover md:h-full md:w-[24rem]"
+                                                        className="h-48 w-full object-cover md:h-60 md:w-[24rem]"
                                                     />
                                                 </div>
                                                 <div className="p-8">
-                                                    <div className="inline-block rounded-full bg-[#CB6CE6]/90 text-white px-2 py-1 text-sm font-semibold">
+                                                    <div className="inline-block rounded-full bg-[#aeff00]/90 text-black px-2 py-1 text-sm font-semibold">
                                                         {post.date}
                                                     </div>
                                                     <div className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">
