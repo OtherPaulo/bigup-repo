@@ -71,7 +71,6 @@ export default function Header() {
         <div className="md:hidden">
           <nav className="flex flex-col space-y-4 px-4 py-6">
             <Link href="/quem-somos" className="hover:text-gray-300">QUEM SOMOS</Link>
-            <Link href="/projetos" className="hover:text-gray-300">PROJETOS</Link>
             <Link href="/solucoes" className="hover:text-gray-300">SOLUÇÕES</Link>
             <Link href="/cases" className="hover:text-gray-300">CASES</Link>
             <Link href="/blog" className="hover:text-gray-300">BLOG</Link>

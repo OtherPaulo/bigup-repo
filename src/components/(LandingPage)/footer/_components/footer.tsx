@@ -23,7 +23,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Links úteis</h3>
             <ul className="space-y-2">
               <li><Link href="/quem-somos" className="hover:underline">QUEM SOMOS</Link></li>
-              <li><Link href="/serviços" className="hover:underline">SERVIÇOS</Link></li>
+              <li><Link href="/servicos" className="hover:underline">SERVIÇOS</Link></li>
               <li><Link href="/cases" className="hover:underline">CASES</Link></li>
               <li><Link href="/blog" className="hover:underline">BLOG</Link></li>
             </ul>

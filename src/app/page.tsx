@@ -8,21 +8,28 @@ import ProductGrid from "@/components/(LandingPage)/product-grid/_components/pro
 import ServicesSection from "@/components/(LandingPage)/services/_components/services"
 import Chat from "@/components/chat/_components/chat"
 import Cookies from "@/components/cookies"
+import FadeInSection from "@/components/fade-in-section"
 
 export default function Home() {
   return (
     <>
       <Header/>
       <main>
-        <Main/>
-        {/* <Estatisticas/> */}
-        <ServicesSection/>
-        <CTA/>
-        <ProductGrid/>
-                {/* <Contato />; */}
+          <Main/>
+        <FadeInSection delay={200}>
+          <ServicesSection/>
+        </FadeInSection>
+        <FadeInSection delay={200}>
+          <CTA/>
+        </FadeInSection>
+        <FadeInSection delay={200}>
+          <ProductGrid/>
+        </FadeInSection>
+        <FadeInSection delay={200}>
+          <SectionBlog/>
+        </FadeInSection>
         <Cookies/>
         <Chat/>
-        <SectionBlog/>
       </main>
       <Footer/>
     </>
