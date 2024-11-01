@@ -40,10 +40,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
       <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">JORNADA</div>
 
-        <h2 className="text-lg md:text-4xl mt-8 mb-4 text-white">
+        <h2 className="text-2xl md:text-4xl mt-8 mb-4 text-white">
           One-stop Shop
         </h2>
-        <p className="text-white text-sm md:text-base ">
+        <p className="text-white text-lg md:text-lg ">
           Com a abordagem &quot;One-Stop Shop&quot;, oferecemos uma parceria integral e
           eficaz em todas as fases do desenvolvimento da sua solução. Isso
           garante maior qualidade e previsibilidade, permitindo que você foque
@@ -61,7 +61,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-[#AEFF00]">
+              <h3 className="hidden md:block text-2xl md:pl-20 md:text-4xl font-bold text-[#AEFF00]">
                 {item.title}
               </h3>
             </div>
