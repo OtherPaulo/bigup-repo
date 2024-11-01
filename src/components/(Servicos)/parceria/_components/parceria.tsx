@@ -26,28 +26,18 @@ export default function ParceriaSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="absolute inset-0 bg-cyan-400/20 rounded-lg" />
-            <div className="relative rounded-lg overflow-hidden shadow-2xl">
-              <div className="absolute top-0 w-full h-8 bg-gray-900/10 backdrop-blur-sm rounded-t-lg">
-                <div className="flex items-center h-full px-4 gap-2">
-                  <div className="w-2.5 h-2.5 rounded-full bg-gray-500" />
-                  <div className="w-2.5 h-2.5 rounded-full bg-gray-500" />
-                  <div className="w-2.5 h-2.5 rounded-full bg-gray-500" />
-                </div>
-              </div>
-              <Image
-                src="/placeholder.svg?height=600&width=800"
-                alt="Equipe trabalhando"
+              <img
+                src="/parceria estrategica.jpeg"
+                alt="Parceria Estratégica"
                 width={800}
                 height={600}
                 className="w-full h-auto rounded-lg object-cover aspect-[4/3]"
               />
-            </div>
           </div>
 
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
                 Parceria Estratégica
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -56,7 +46,7 @@ export default function ParceriaSection() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">
                 Descubra também outros serviços que podem beneficiar seu negócio:
               </h3>
               <ul className="space-y-4">
@@ -75,8 +65,8 @@ export default function ParceriaSection() {
                 ))}
               </ul>
             </div>
-            <a href="">
-            <Button size="lg" className="bg-cyan-400 mt-8 hover:bg-cyan-500 text-white">
+            <a href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank">
+            <Button size="lg" className="bg-[#aeff00] rounded-full mt-8 hover:bg-[#aeff00] text-black">
               ENTRE EM CONTATO
             </Button>
             </a>
