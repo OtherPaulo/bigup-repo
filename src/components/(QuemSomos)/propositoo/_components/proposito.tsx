@@ -9,12 +9,12 @@ export default function Propositoo() {
         {/* Header Section */}
         <div className="mb-12">
         <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">PROPÓSITO</div>
-        <h1 className="text-2xl font-bold leading-tight md:text-xl lg:text-4xl mt-4 mb-8">
+        <h1 className="text-2xl font-bold leading-tight md:text-4xl lg:text-4xl mt-4 mb-8">
             Oferecer serviços de alta qualidade com foco em {" "}
             <span className="text-[#C1FF02]">inovação tecnológica!</span> 
           </h1>
-          <p className="text-sm text-gray-400">
-            Na interseção entre visão e execução, transformamos conceitos em soluções impactantes.
+          <p className="text-lg text-gray-400">
+          Na junção de visão e ação, transformamos ideias em soluções que realmente fazem a diferença.
           </p>
         </div>
         {/* Main Content Grid */}
@@ -22,7 +22,7 @@ export default function Propositoo() {
           {/* Left Column - Support Card & Image */}
           <div className="space-y-6">
             <div className="bg-[#1A1A1A] p-6 rounded-2xl">
-              <h3 className="text-xl font-bold mb-4">Potencialize seu Negócio</h3>
+              <h3 className="text-lg font-bold mb-4">Potencialize seu Negócio</h3>
               <p className="text-gray-400 mb-4">Estamos sempre disponíveis para nossos clientes</p>
               <a href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank">
               <Button variant="ghost" className="group">
@@ -33,7 +33,7 @@ export default function Propositoo() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/proposito.png?height=400&width=500"
+                src="/propositoo1.jpeg"
                 alt="Team collaboration"
                 fill
                 className="object-cover"
@@ -45,7 +45,7 @@ export default function Propositoo() {
           <div className="space-y-6">
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/proposito2.png?height=400&width=500"
+                src="/propositoo2.jpeg"
                 alt="Office environment"
                 fill
                 className="object-cover"

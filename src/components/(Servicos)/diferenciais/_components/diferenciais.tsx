@@ -53,7 +53,7 @@ import {
           <div className="mb-16">
           <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">NOSSO DIFERENCIAL</div>
 
-            <h3 className="text-3xl md:text-4xl font-bold">
+            <h3 className="text-2xl md:text-4xl font-bold">
               Como potencializamos nossas entregas
             </h3>
           </div>
@@ -70,7 +70,7 @@ import {
                   </div>
                 </div>
                 <div className="pt-8 text-center">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-3">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-3">
                     {differential.title}
                   </h4>
                   <p className="text-gray-600 leading-relaxed">
