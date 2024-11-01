@@ -9,7 +9,7 @@ export default function MainServices() {
         <div className=" mx-auto">
           {/* Title Section */}
           <h1 className="text-2xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
-          COMO TE AJUDAMOS: <span className="font-semibold">Maximizando o sucesso dos seus projetos digitais.</span> 
+          COMO TE AJUDAMOS: <span className="text-xl font-semibold">Maximizando o sucesso dos seus projetos digitais.</span> 
           </h1>
 
           {/* Subtitle */}

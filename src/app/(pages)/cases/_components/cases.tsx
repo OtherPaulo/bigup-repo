@@ -32,7 +32,7 @@ export default function CaseSection() {
     <section className="bg-black py-16 md:py-24">
       <div className="container min-h-screen mt-32 mx-auto px-4 md:px-6">
         <h2 className="text-2xl md:text-4xl font-bold text-white mb-12">
-          Quem confia na Big Deal
+          Quem confia na Big Deal!
         </h2>
         
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

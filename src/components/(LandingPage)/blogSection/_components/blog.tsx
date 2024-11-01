@@ -42,7 +42,7 @@ export default function SectionBlog() {
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
       <div className="mb-4 md:mb-0">
       <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mb-8">Blog</div>
-      <h1 className="text-2xl md:text-4xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
+      <h1 className="text-xl md:text-4xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
       </div>
       <Link href="/blog" className="bg-black rounded-full px-4 py-2 text-white">
         Veja todos

@@ -71,7 +71,7 @@ export default function Header() {
         <div className="md:hidden">
           <nav className="flex flex-col space-y-4 px-4 py-6">
             <Link href="/quem-somos" className="hover:text-gray-300">QUEM SOMOS</Link>
-            <Link href="/solucoes" className="hover:text-gray-300">SOLUÇÕES</Link>
+            <Link href="/servicos" className="hover:text-gray-300">SERVIÇOS</Link>
             <Link href="/cases" className="hover:text-gray-300">CASES</Link>
             <Link href="/blog" className="hover:text-gray-300">BLOG</Link>
             <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-[#ffffff] text-black px-4 py-2 rounded-md hover:bg-[#aeff00] transition-colors text-center">

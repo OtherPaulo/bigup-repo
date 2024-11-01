@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h2 className="text-lg font-bold mb-4">Potencializamos seu negócio através de<br /> estratégias  de marketing & vendas</h2>
+            <h2 className="text-base font-bold mb-4">Potencializamos seu negócio através de<br /> estratégias  de marketing & vendas</h2>
             {/* <p className="mb-4">Desafios digitais?</p>
             <p className="mb-6">NÓS TE AJUDAMOS!</p> */}
             <div className="hidden lg:flex items-center">
@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Links úteis</h3>
+            <h3 className="text-base font-semibold mb-4">Links úteis</h3>
             <ul className="space-y-2">
               <li><Link href="/quem-somos" className="hover:underline">QUEM SOMOS</Link></li>
               <li><Link href="/servicos" className="hover:underline">SERVIÇOS</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Redes Sociais</h3>
+            <h3 className="text-base font-semibold mb-4">Redes Sociais</h3>
             <div className="flex space-x-4">
               <Link href="https://www.instagram.com/bigdealmarketing/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Instagram size={24} />

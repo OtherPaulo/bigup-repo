@@ -35,7 +35,7 @@ export default function ProductGrid() {
 
     return (
         <div className="container mx-auto px-4 mb-8 py-8">
-      <h1 className="text-2xl md:text-4xl font-bold dark:text-white">
+      <h1 className="text-xl md:text-4xl font-bold dark:text-white">
       Nossa Jornada Digital
       </h1>
       <p className=" text-base md:text-lg mt-8 mb-16 dark:text-neutral-200">

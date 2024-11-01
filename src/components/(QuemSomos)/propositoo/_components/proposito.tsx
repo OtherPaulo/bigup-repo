@@ -22,7 +22,7 @@ export default function Propositoo() {
           {/* Left Column - Support Card & Image */}
           <div className="space-y-6">
             <div className="bg-[#1A1A1A] p-6 rounded-2xl">
-              <h3 className="text-lg font-bold mb-4">Potencialize seu Negócio</h3>
+              <h3 className="text-xl font-bold mb-4">Potencialize seu Negócio</h3>
               <p className="text-gray-400 mb-4">Estamos sempre disponíveis para nossos clientes</p>
               <a href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank">
               <Button variant="ghost" className="group">
@@ -54,7 +54,7 @@ export default function Propositoo() {
 
             {/* Features List */}
             <div className="space-y-8">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start mt-16 gap-4">
                 <div className="w-10 h-10 rounded-full bg-[#C1FF02] flex items-center justify-center flex-shrink-0">
                   <Target className="w-5 h-5 text-black" />
                 </div>

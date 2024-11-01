@@ -39,7 +39,7 @@ export default function QMain() {
                                 <p className="text-lg text-white">
                                 Na intersecção entre visão e execução, trazemos ideias criativas e uma equipe que transforma conceitos em narrativas atraentes.
                                 </p>
-                                <FlipWords words={words} className="text-lg md:text-lg lg:text-lg" />
+                                <FlipWords words={words} className="text-base md:text-lg lg:text-lg" />
                                 
                                 <div className="flex flex-wrap gap-4">
                                     <Link
