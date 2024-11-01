@@ -16,7 +16,7 @@ export default function Home() {
       <Header/>
       <main>
           <Main/>
-        <FadeInSection delay={200}>
+        <FadeInSection delay={400}>
           <ServicesSection/>
         </FadeInSection>
         <FadeInSection delay={200}>
