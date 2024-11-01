@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-white">
           <div className="flex flex-wrap justify-between items-center">
-            <p className="text-sm">&copy; 2024 BIG DEAL MARKETING - AGÊNCIA DIGITAL. Todos os direitos reservados.</p>
+            <p className="text-sm">&copy; 2024 BIG DEAL MARKETING. Todos os direitos reservados.</p>
             <div className="flex space-x-4 mt-4 lg:mt-0">
               <Link href="/politica-de-privacidade" className="text-sm hover:underline">Política de Privacidade</Link>
               <Link href="/politica-de-cookies" className="text-sm hover:underline">Política de Cookies</Link>

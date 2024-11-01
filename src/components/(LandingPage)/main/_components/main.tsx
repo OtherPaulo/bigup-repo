@@ -26,14 +26,14 @@ export default function Main() {
 
           <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
             <div className="space-y-6 z-10">
-              <h1 className="text-2xl font-bold leading-tight md:text-xl lg:text-4xl">
+              <h1 className="text-2xl font-bold leading-tight md:text-lg lg:text-4xl">
                 IMPULSIONAMOS SUA MARCA COM{" "}
                 <span className="relative">
                   ESTRATÉGIAS DIGITAIS
                   <span className="absolute bottom-1 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
                 </span>
               </h1>
-              <h2 className="text-lg md:text-lg lg:text-xl">
+              <h2 className="text-lg md:text-lg lg:text-lg">
                 Soluções para
                 <FlipWords words={words} className="text-lg md:text-lg lg:text-lg" />
               </h2>

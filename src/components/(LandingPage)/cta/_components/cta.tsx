@@ -20,8 +20,8 @@ export default function CTA() {
       <div className="relative container mx-auto px-4 py-16 md:py-16 flex flex-col md:flex-row items-center">
         {/* Text content */}
         <div className=" text-white z-10">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Potencialize Suas Estratégias de Marketing
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 leading-tight">
+          Soluções Criativas Para o Mundo Moderno
           </h2>
           <p className="text-lg mb-8 ">
             Descubra como nossas soluções inovadoras podem transformar seu negócio e expandir seu alcance.

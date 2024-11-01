@@ -35,11 +35,11 @@ export default function ProductGrid() {
 
     return (
         <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl md:text-5xl font-bold dark:text-white">
-        Confira nossos cases de sucesso
+      <h1 className="text-2xl md:text-4xl font-bold dark:text-white">
+      Nossa Jornada Digital
       </h1>
-      <p className=" text-base md:text-xl mt-8 mb-16 dark:text-neutral-200">
-      Cada cliente é único, nossas soluções são moldadas para atender às suas necessidades específicas. Trabalhamos lado a lado para entender sua visão e desenvolver estratégias sob medida.
+      <p className=" text-base md:text-lg mt-8 mb-16 dark:text-neutral-200">
+      Na Jornada Digital, cada projeto é único! Trabalhamos juntos para captar sua essência e desenvolver soluções que realmente ressoam com seu público.
       </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:px-28">
                 {images.map((image, i) => (

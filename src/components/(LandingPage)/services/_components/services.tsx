@@ -43,7 +43,7 @@ export default function ServicesSection() {
                 </div>
                 </a>
               </div>
-              <h4 className="text-xl font-semibold text-center mb-4">{service.title}</h4>
+              <h4 className="text-lg font-semibold text-center mb-4">{service.title}</h4>
               <p className="text-gray-900 text-center">{service.description}</p>
             </div>
           ))}

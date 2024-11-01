@@ -61,7 +61,7 @@ export default function PostesBlog() {
               </div>
               <div className="group-hover:bg-[#aeff00]/90 transition-colors duration-300">
                 <CardHeader>
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-black transition-colors duration-300">{post.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 group-hover:text-black transition-colors duration-300">{post.title}</h3>
                   <p className="text-gray-600 group-hover:text-black transition-colors duration-300">{post.description}</p>
                 </CardHeader>
                 <CardFooter className="flex items-center pt-4">
