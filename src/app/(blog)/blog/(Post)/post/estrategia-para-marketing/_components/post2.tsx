@@ -9,7 +9,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 export default function EstrategiaPost() {
   return (
     <>
-    <div className="bg-gray-800">
+    <div className="bg-primary/90">
         <Header />
         <div className="py-16"></div>
         <Card className="max-w-5xl mb-24 mx-auto">

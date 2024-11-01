@@ -9,7 +9,7 @@ import PostesBlog from "@/components/(Blog)/postes/posts/_components/posts"
 export default function Metaverso() {
   return (
     <>
-    <div className="bg-gray-800">
+    <div className="bg-primary/90">
     <Header />
     <div className="py-16"></div>
     <Card className="max-w-5xl mb-24 mx-auto">

@@ -9,7 +9,7 @@ import Header from "@/components/(LandingPage)/header/_components/header"
 export default function Post3() {
   return (
     <>
-        <div className="bg-gray-800">
+        <div className="bg-primary/90">
         <Header />
         <div className="py-16"></div>
     <Card className="max-w-4xl mx-auto">
