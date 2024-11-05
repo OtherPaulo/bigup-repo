@@ -37,7 +37,7 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg relative pt-16">
               <div className="absolute -top-6 left-1/2 transform -translate-x-1/2">
-              <a href="/servicos">
+              <a href="/cases">
                 <div className="bg-[#000000]/95 p-4 rounded-full shadow-lg transition-transform duration-300 hover:scale-105 cursor-pointer">
                   {service.icon}
                 </div>

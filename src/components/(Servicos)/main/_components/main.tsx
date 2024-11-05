@@ -8,12 +8,16 @@ export default function MainServices() {
 
         <div className=" mx-auto">
           {/* Title Section */}
-          <h1 className="text-2xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
-          COMO TE AJUDAMOS: <span className="text-xl font-semibold">Maximizando o sucesso dos seus projetos digitais.</span> 
+          <h1 className="text-xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
+          Descubra nossos serviços personalizados para potencializar seus {" "}
+                          <span className="relative">
+                          projetos digitais
+                  <span className="absolute bottom-0 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
+                </span> 
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-lg text-gray-300 mb-8">
+          <p className="text-base md:text-lg text-gray-300 mb-8">
           Na <span className="font-bold text-white">BIG DEAL</span>, oferecemos uma ampla gama de serviços projetados para elevar sua marca e impulsionar o crescimento. Nossa equipe multidisciplinar de designers, estrategistas,e os profissionais de marketing trabalham em colaboração para dar vida à sua visão por meio de soluções inovadoras e impactantes.
           </p>
 
@@ -36,32 +40,23 @@ export default function MainServices() {
               className="rounded-lg object-cover mb-8 w-full h-[300px]"
             />
 
-          <h1 className="text-2xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
+          {/* <h1 className="text-2xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
             Potencialize a performance dos seus projetos digitais.
-          </h1>
+          </h1> */}
           
-          <p className="text-lg md:text-lg text-gray-300 mb-8">
-            Em um cenário tecnológico em constante evolução, otimizar a performance dos projetos de TI é essencial para alcançar resultados excepcionais. Aqui estão algumas estratégias para impulsionar a eficiência e o sucesso dos seus projetos:
+          <p className="text-base md:text-lg text-gray-300 mb-8">
+          Em um ambiente tecnológico em constante mudança, otimizar a performance dos projetos de TI é fundamental para alcançar resultados excepcionais. Confira algumas estratégias para aumentar a eficiência e o sucesso dos seus projetos:
           </p>
 
           {/* Text Content */}
-          <div className="space-y-6 text-lg md:text-lg text-gray-300">
+          <div className="space-y-6 text-base md:text-lg text-gray-300">
             <p>
-              Entretanto, o sucesso dessa jornada está profundamente ligado à qualidade da equipe envolvida. É exatamente nesse aspecto que os serviços da Premiersoft se destacam.
+            O sucesso dessa jornada está intimamente ligado à qualidade da equipe envolvida. É nesse aspecto que os serviços da Big Deal se destacam.
             </p>
             
             <p>
-              Na nossa empresa, reconhecemos a importância de prazos, qualidade e resultados. Por isso, oferecemos soluções sob medida que integram expertise técnica e flexibilidade operacional, garantindo uma gestão de custos eficiente e transparência total para nossos clientes.
+            Na nossa empresa, entendemos a importância de prazos, qualidade e resultados. Por isso, oferecemos soluções personalizadas que combinam expertise técnica e flexibilidade operacional, assegurando uma gestão de custos eficaz e total transparência para nossos clientes.
             </p>
-
-            <div className="pt-6 text-lg md:text-lg">
-              <p className="text-white">
-                Para assegurar o êxito de cada projeto, vamos além das habilidades técnicas; nosso compromisso é: 
-                <span className="block text-lg md:text-2xl font-bold mt-2">
-                  &quot;Prover ao cliente sempre a melhor solução.&quot;
-                </span>
-              </p>
-            </div>
           </div>
         </div>
       </div>
