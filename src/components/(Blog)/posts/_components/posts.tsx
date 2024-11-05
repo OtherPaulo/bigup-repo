@@ -6,16 +6,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const blogPosts = [
   {
     id: 1,
-    date: "27 SET",
-    title: "Metaverso: Um Grande Passo para os Chatbots e Outras IAs",
-    description: "O metaverso está emergindo como uma nova fronteira digital, e com ele surgem oportunidades inovadoras para o uso de chatbots e inteligência artificial...",
-    author: "Felipe Zavatti",
-    authorImage: "/perfil.jpg?height=40&width=40",
-    image: "/metaverso.jpg",
-    link: "/blog/post/metaverso"
-  },
-  {
-    id: 2,
     date: "12 SET",
     title: "Estratégias de Marketing Digital para Marcas",
     description: "No cenário digital atual, uma estratégia de marketing eficaz é essencial para que sua marca se destaque e alcance seus objetivos de negócio...",
@@ -24,6 +14,17 @@ const blogPosts = [
     image: "/estrategia.png",
     link: "/blog/post/estrategia-para-marketing"
   },
+  {
+    id: 2,
+    date: "27 SET",
+    title: "Metaverso: Um Grande Passo para os Chatbots e Outras IAs",
+    description: "O metaverso está emergindo como uma nova fronteira digital, e com ele surgem oportunidades inovadoras para o uso de chatbots e inteligência artificial...",
+    author: "Felipe Zavatti",
+    authorImage: "/perfil.jpg?height=40&width=40",
+    image: "/metaverso.jpg",
+    link: "/blog/post/metaverso"
+  },
+
   {
     id: 3,
     date: "22 AGO",
@@ -41,7 +42,7 @@ export default function PostsBlog() {
     <div className="container mx-auto mb-8  md:py-8 px-4">
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
       <div className="mb-4 md:mb-0">
-      <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mb-8">Blog</div>
+      <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mt-8 mb-8">POSTS</div>
       <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
       </div>
     </div>
