@@ -39,10 +39,10 @@ export default function Main() {
               </h2>
               <div className="flex flex-wrap gap-4">
                 <Link
-                  href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank"
+                  href="/servicos"
                   className="rounded-full flex bg-[#AEFF00] px-8 py-3 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
                 >
-                  Inicie seu projeto
+                  QUERO SABER MAIS
                   <ArrowUpRight className="w-6 h-6 text-black" />
                 </Link>
               </div>
