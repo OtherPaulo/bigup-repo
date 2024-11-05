@@ -17,7 +17,7 @@ export default function NossaJornada() {
             <h3 className="text-2xl font-semibold text-[#AEFF00]">Definir</h3>
           </div>
           <p className="text-white dark:text-neutral-200 text-lg md:text-lg font-normal mb-4">
-            Através de um trabalho consultivo, ajudamos nossos clientes a definir as estratégias necessárias para executar seu projeto. Esta etapa é dividida em três categorias essenciais:
+            Através de um trabalho consultivo, ajudamos nossos clientes a definir as estratégias necessárias para executar seu projeto. Esta etapa é dividida em duas categorias essenciais:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <div className="bg-white p-4 rounded-lg shadow-md">
