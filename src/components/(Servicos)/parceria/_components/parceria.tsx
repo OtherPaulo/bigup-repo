@@ -52,15 +52,14 @@ export default function ParceriaSection() {
               <ul className="space-y-4">
                 {services.map((service, index) => (
                   <li key={index}>
-                    <a
-                      href={service.href}
-                      className="group flex items-center gap-3 text-gray-600 hover:text-primary transition-colors"
+                    <div
+                      className="group flex items-center gap-3 text-gray-600 hover:text-primary transition-colors cursor-pointer"
                     >
                       <div className="p-2 rounded-lg bg-gray-100 group-hover:bg-primary/10 transition-colors">
-                        <service.icon className="w-5 h-5" />
+                      <service.icon className="w-5 h-5" />
                       </div>
                       <span className="font-medium">{service.title}</span>
-                    </a>
+                    </div>
                   </li>
                 ))}
               </ul>
