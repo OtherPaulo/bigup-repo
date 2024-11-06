@@ -12,7 +12,7 @@ export default function CaseSection() {
       name: "Us Clean Cosmetics",
       img: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome%20(13)-FagNFxkgMzj5yn4esWntS8DFCyqJrV.png",
       href: "https://www.instagram.com/uscleancosmetics",
-      type: "Skin Care",
+      type: "Skincare",
     },
     {
       name: "Nutty Friends",

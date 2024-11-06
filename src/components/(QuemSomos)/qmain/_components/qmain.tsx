@@ -33,10 +33,10 @@ export default function QMain() {
                                 <h1 className="text-2xl font-bold text-[#AEFF00] leading-tight md:text-lg lg:text-4xl">
                                     WE THINK BIG! 
                                 </h1>
-                                <p className="text-lg text-white">
+                                <p className="text-lg text-white leading-relaxed">
                                 Somos especializados em fornecer soluções de ponta e sob medida para suas necessidades. Não importa o que você esteja procurando, nós temos a solução.
                                 </p>
-                                <p className="text-lg text-white">
+                                <p className="text-lg text-white leading-relaxed">
                                 Na intersecção entre visão e execução, trazemos ideias criativas e uma equipe que transforma conceitos em narrativas atraentes.
                                 </p>
                                 <FlipWords words={words} className="text-base md:text-lg lg:text-lg" />

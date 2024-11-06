@@ -26,7 +26,7 @@ export default function Main() {
 
           <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
             <div className="space-y-6 z-10">
-              <h1 className="text-xl sm:text-2xl font-bold leading-tight md:text-lg lg:text-4xl">
+              <h1 className="text-xl leading-relaxed sm:leading-relaxed sm:text-2xl font-bold md:text-lg md:leading-normal lg:text-4xl lg:leading-normal">
                 IMPULSIONAMOS SUA MARCA COM{" "}
                 <span className="relative">
                   ESTRATÉGIAS DIGITAIS
