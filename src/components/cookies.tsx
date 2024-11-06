@@ -11,7 +11,12 @@ export default function Cookies() {
     // Check if user has already accepted cookies
     const cookieConsent = localStorage.getItem("cookieConsent")
     if (!cookieConsent) {
-      setShowBanner(true)
+      // Add a delay of 5 seconds before showing the banner
+      const timer = setTimeout(() => {
+        setShowBanner(true)
+      }, 5000)
+      // Cleanup the timer if the component is unmounted
+      return () => clearTimeout(timer)
     }
   }, [])
 
