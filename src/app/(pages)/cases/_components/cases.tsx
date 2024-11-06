@@ -42,7 +42,7 @@ export default function CaseSection() {
       name: "Agora Facilita",
       img: "/case-agora-facilita.png",
       href: "https://www.agorafacilita.com/",
-      type: "Ecommerce",
+      type: "E-commerce",
     },
   ]
 
