@@ -18,7 +18,7 @@ export default function CaseSection() {
       name: "Nutty Friends",
       img: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome%20(12)-8UXco7UfV8SM7cJQUjbzlS4Yi81dsR.png",
       href: "https://www.instagram.com/nuttyfriends/",
-      type: "Pastas de Amendoim",
+      type: "Alimentação Saudável",
     },
     {
       name: "Megga Zavatti",
@@ -28,7 +28,7 @@ export default function CaseSection() {
     },
     {
       name: "Encaixa.ai",
-      img: "case-encaixa-ai.png",
+      img: "/encaixa.ai.jpeg",
       href: "https://www.encaixa.ai/",
       type: "Plataforma SaaS",
     },
@@ -36,7 +36,7 @@ export default function CaseSection() {
       name: "La Ganexa",
       img: "/case-laganexa.png",
       href: "https://www.lojalaganexa.com.br/",
-      type: "Pasta de Amendoim",
+      type: "Alimentação Saudável",
     },
     {
       name: "Agora Facilita",
