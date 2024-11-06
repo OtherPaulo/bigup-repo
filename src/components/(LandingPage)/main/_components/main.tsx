@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { FlipWords } from "@/components/ui/flip-words";
-import GridPattern from "@/components/ui/grid-pattern";
-import { cn } from "@/lib/utils";
 
 export default function Main() {
   const words = ["Branding", "Social Media", "Loja Virtual", "Sites Profissionais"];
@@ -10,14 +8,18 @@ export default function Main() {
   return (
     <div>
       <section className="relative min-h-screen w-full bg-black px-4 py-12 text-white md:px-6 lg:px-8 flex items-center">
-        <GridPattern
-          width={20}
-          height={20}
-          x={-1}
-          y={-1}
-          className={cn("[mask-image:linear-gradient(to_bottom_right,white,transparent,white)]")}
-        />
-        <div className="container px-4 mx-auto">
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute inset-0 w-full grayscale h-full object-cover z-0 opacity-40"
+        >
+          <source src="/video-home.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black opacity-100 z-10"></div>
+
+        <div className="container px-4 mx-auto z-20">
           <div className="absolute right-8 z-10 md:block">
             <div className="absolute inset-0 ml-[-6.6rem] mt-[31.5rem] lg:mt-14 md:ml-[-28rem] animate-spin-slow">
               {/* <Rotate /> */}
@@ -33,7 +35,7 @@ export default function Main() {
                   <span className="absolute bottom-0 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
                 </span>
               </h1>
-              <h2 className="text-base sm:text-lg md:text-lg">
+              <h2 className="text-base sm:text-lg md:text-lg ">
                 Soluções para
                 <FlipWords words={words} className="text-base sm:text-lg md:text-lg" />
               </h2>
