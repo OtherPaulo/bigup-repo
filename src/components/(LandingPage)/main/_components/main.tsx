@@ -13,6 +13,7 @@ export default function Main() {
           loop
           muted
           className="absolute inset-0 w-full grayscale h-full object-cover z-0 opacity-40"
+          poster="/video-home.svg"
         >
           <source src="/video-home.mp4" type="video/mp4" />
           Your browser does not support the video tag.

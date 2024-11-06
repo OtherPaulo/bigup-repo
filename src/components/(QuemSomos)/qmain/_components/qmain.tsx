@@ -13,6 +13,7 @@ export default function QMain() {
           loop
           muted
           className="absolute inset-0 w-full grayscale h-full object-cover z-0 opacity-40"
+          poster="/video-quem-somos.svg"
         >
           <source src="/video-quem-somos.mp4" type="video/mp4" />
           Your browser does not support the video tag.
