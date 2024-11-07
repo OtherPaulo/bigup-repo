@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <h2 className="text-base font-bold mb-4">Potencializamos seu negócio através de<br /> estratégias  de marketing & vendas</h2>
-            {/* <p className="mb-4">Desafios digitais?</p>
-            <p className="mb-6">NÓS TE AJUDAMOS!</p> */}
+            <p>Entre em contato:</p>
+            <p className="mb-6">contato@bigdealmarketing.com.br</p>
             <div className="hidden lg:flex items-center">
             {/* <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
               Entre em Contato

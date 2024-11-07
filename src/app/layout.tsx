@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Agência de Soluções e Estratégias Digitais.",
     images: [
       {
-        url: "https://bigup.devpaulorodrigues.tech/preview-bigdeal.png",
+        url: "https://www.bigdealmarketing.com.br/preview-bigdeal.png",
         alt: "Agência de Soluções e Estratégias Digitais.",
       }
     ],
