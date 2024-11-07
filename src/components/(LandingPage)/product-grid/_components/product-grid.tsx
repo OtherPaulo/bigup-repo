@@ -39,7 +39,7 @@ export default function ProductGrid() {
       Nossa Jornada Digital
       </h1>
       <p className=" text-base md:text-lg mt-8 mb-16 dark:text-neutral-200">
-      Na Jornada Digital, cada projeto é único! Trabalhamos juntos para captar sua essência e desenvolver soluções que realmente ressoam com seu público.
+      Trabalhamos juntos para captar sua essência e desenvolver soluções que realmente ressoam com seu público.
       </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:px-28">
                 {images.map((image, i) => (

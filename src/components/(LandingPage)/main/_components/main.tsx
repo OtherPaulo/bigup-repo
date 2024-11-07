@@ -29,17 +29,17 @@ export default function Main() {
 
           <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
             <div className="space-y-6 z-10">
-              <h1 className="text-xl leading-relaxed sm:leading-relaxed sm:text-2xl font-bold md:text-lg md:leading-normal lg:text-4xl lg:leading-normal">
+                <h1 className="text-xl leading-relaxed sm:leading-relaxed sm:text-2xl font-bold md:text-lg md:leading-normal lg:text-4xl lg:leading-normal">
                 IMPULSIONAMOS SUA MARCA COM{" "}
                 <span className="relative">
                   ESTRATÉGIAS DIGITAIS
-                  <span className="absolute bottom-0 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
+                  <span className="absolute bottom-0 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
                 </span>
-              </h1>
-              <h2 className="text-base sm:text-lg md:text-lg ">
-                Soluções para
+                </h1>
+                <h2 className="text-base sm:text-lg md:text-lg">
+                Soluções para{" "}
                 <FlipWords words={words} className="text-base sm:text-lg md:text-lg" />
-              </h2>
+                </h2>
               <div className="flex flex-wrap gap-4">
                 <Link
                   href="/servicos"
