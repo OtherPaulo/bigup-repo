@@ -39,7 +39,7 @@ export default function ProductGrid() {
             img: '/case-agora-facilita.png',
             alt: 'Agora Facilita Product',
             title: 'AGORA FACILITA 2024',
-            subtitle: 'E-commerce, funciolaidades personalizadas',
+            subtitle: 'E-commerce, funcionalidades personalizadas',
             url: 'https://agorafacilita.com/'
         }
     ]
