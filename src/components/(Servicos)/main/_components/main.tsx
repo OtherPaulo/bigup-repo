@@ -33,11 +33,11 @@ export default function MainServices() {
             />
           </div> */}
               <img
-              src="/servicos-bg.jpeg"
+              src="/Pgna - SERVIÇOS (parte superior).jpeg"
               alt="Team collaboration"
               width={600}
               height={400}
-              className="rounded-lg object-cover mb-8 w-full h-[300px]"
+              className="rounded-lg object-cover mb-8 w-full h-[500px]"
             />
 
           {/* <h1 className="text-2xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">

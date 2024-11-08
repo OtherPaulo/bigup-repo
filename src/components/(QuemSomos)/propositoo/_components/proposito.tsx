@@ -33,7 +33,7 @@ export default function Propositoo() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/propositoo1.jpeg"
+                src="/Pgna - QUEM SOMOS .jpeg"
                 alt="Team collaboration"
                 fill
                 className="object-cover"
@@ -45,7 +45,7 @@ export default function Propositoo() {
           <div className="space-y-6">
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/propositoo2.jpeg"
+                src="/Pgna - QUEM SOMOS II.jpeg"
                 alt="Office environment"
                 fill
                 className="object-cover"

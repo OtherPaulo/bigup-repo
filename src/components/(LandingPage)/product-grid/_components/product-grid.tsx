@@ -12,35 +12,35 @@ export default function ProductGrid() {
             alt: 'Nutty Friends Product',
             title: 'NUTTY FRIENDS 2020',
             subtitle: 'E-commerce',
-            url: 'https://www.instagram.com/uscleancosmetics'
+            url: 'https://www.instagram.com/nuttyfriends/'
         },
         {
             img: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zavatti-wvzeNYzEZrTWnfNa86xayTWQ9QpuqH.png',
             alt: 'Megga Zavatti Product',
             title: 'MEGGA ZAVATTI 2022',
             subtitle: 'Branding, Site & Social Media',
-            url: 'https://www.facebook.com/uscleancosmetics'
+            url: 'https://www.instagram.com/meggazavattimarmores/'
         },
         {
             img: '/encaixa.ai.jpeg',
             alt: 'Encaixa.ai Product',
             title: 'ENCAIXA.AI 2023',
             subtitle: 'Plataforma SaaS',
-            url: 'https://www.instagram.com/nuttyfriends/'
+            url: 'https://www.encaixa.ai/'
         },
         {
             img: '/case-laganexa.png',
             alt: 'La Ganexa Product',
             title: 'LA GANEXA 2024',
-            subtitle: 'Branding',
-            url: 'https://www.facebook.com/nuttyfriendsbr/?locale=pt_BR'
+            subtitle: 'Branding, Landing Page',
+            url: 'https://lojalaganexa.com.br/'
         },
         {
             img: '/case-agora-facilita.png',
             alt: 'Agora Facilita Product',
             title: 'AGORA FACILITA 2024',
-            subtitle: 'Branding',
-            url: 'https://www.instagram.com/nuttyfriends/'
+            subtitle: 'E-commerce, funciolaidades personalizadas',
+            url: 'https://agorafacilita.com/'
         }
     ]
 
@@ -71,6 +71,9 @@ export default function ProductGrid() {
                     </div>
                 ))}
             </div>
+            <p className="md:text-center mt-8 text-gray-400">
+                Todos os projetos citados tiveram envolvimento em diversas fases, sendo elas em analises coparticipativas e participativas integralmente.
+            </p>
         </div>
     )
 }

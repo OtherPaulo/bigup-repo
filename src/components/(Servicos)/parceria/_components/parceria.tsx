@@ -27,7 +27,7 @@ export default function ParceriaSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
               <img
-                src="/parceria-estrategica.jpeg"
+                src="/Pgna - SERVIÇOS (parceria estratégica).jpeg"
                 alt="Parceria Estratégica"
                 width={800}
                 height={600}
