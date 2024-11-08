@@ -13,9 +13,8 @@ export default function Main() {
           loop
           muted
           className="absolute inset-0 w-full grayscale h-full object-cover z-0 opacity-40"
-          poster="/video-home.svg"
         >
-          <source src="/video-home.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/7668506/7668506-uhd_2560_1440_25fps.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black opacity-100 z-10"></div>

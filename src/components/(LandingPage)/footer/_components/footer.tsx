@@ -2,6 +2,9 @@ import Link from 'next/link'
 import { ArrowUpRight, Facebook, Instagram, Linkedin } from 'lucide-react'
 import GridPattern from '@/components/ui/grid-pattern'
 import { cn } from '@/lib/utils'
+import { CookiesModal } from '../../cookies-modal/cookies-modal'
+import { Button } from '@/components/ui/button'
+import { PrivacidadeModal } from '../../politicasPrivacidade/politicasPrivacidade'
 
 export default function Footer() {
   return (
@@ -47,8 +50,8 @@ export default function Footer() {
           <div className="flex flex-wrap justify-between items-center">
             <p className="text-sm">&copy; 2024 BIG DEAL MARKETING. Todos os direitos reservados.</p>
             <div className="flex space-x-4 mt-4 lg:mt-0">
-              <Link href="/politica-de-privacidade" className="text-sm hover:underline">Política de Privacidade</Link>
-              <Link href="/politica-de-cookies" className="text-sm hover:underline">Política de Cookies</Link>
+              <PrivacidadeModal/>
+              <CookiesModal/>
             </div>
           </div>
         </div>

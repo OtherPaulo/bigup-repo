@@ -1,8 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { PrivacidadeModalCookies } from "./(LandingPage)/politicasPrivacidade/politicaDePrivacidadeCoockies"
 
 export default function Cookies() {
   const [showBanner, setShowBanner] = useState(false)
@@ -36,9 +36,8 @@ export default function Cookies() {
           <span>
             Utilizamos cookies para armazenar estatísticas de visitas para melhorar sua experiência de navegação. Ao
             continuar, você concorda com nossa{" "}
-            <Link href="/politica-de-privacidade" className="text-primary underline">
-              política de privacidade
-            </Link>
+          <PrivacidadeModalCookies />
+            
           </span>
           <Button
             onClick={handleAccept}

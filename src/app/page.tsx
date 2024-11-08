@@ -1,5 +1,4 @@
 import SectionBlog from "@/components/(LandingPage)/blogSection/_components/blog"
-import { Cases } from "@/components/(LandingPage)/carrossel-cases/_components/cases"
 import CTA from "@/components/(LandingPage)/cta/_components/cta"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import Header from "@/components/(LandingPage)/header/_components/header"
