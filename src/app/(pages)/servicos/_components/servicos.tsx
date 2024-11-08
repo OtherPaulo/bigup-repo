@@ -5,6 +5,7 @@ import Jornada from "@/components/(Servicos)/jornada/_components/jornada";
 import MainServices from "@/components/(Servicos)/main/_components/main";
 import ParceriaSection from "@/components/(Servicos)/parceria/_components/parceria";
 import Chat from "@/components/chat/_components/chat";
+import Cookies from "@/components/cookies";
 import FadeInSection from "@/components/fade-in-section";
 
 export default function Serviços() {
@@ -24,6 +25,7 @@ export default function Serviços() {
             </FadeInSection>
             <Chat />
             </main>
+            <Cookies/>
             <Footer />
         </div>
     )

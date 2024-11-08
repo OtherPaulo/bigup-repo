@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import PostesBlog from "@/components/(Blog)/postes/posts/_components/posts"
 import Header from "@/components/(LandingPage)/header/_components/header"
+import Cookies from "@/components/cookies"
 
 export default function Post3() {
   return (
@@ -136,6 +137,7 @@ export default function Post3() {
       </CardContent>
     </Card> 
     <PostesBlog/>
+    <Cookies/>
     <Footer />
     </div>
     </>

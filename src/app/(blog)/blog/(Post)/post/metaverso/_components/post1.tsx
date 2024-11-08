@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Header from "@/components/(LandingPage)/header/_components/header"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import PostesBlog from "@/components/(Blog)/postes/posts/_components/posts"
+import Cookies from "@/components/cookies"
 
 export default function Metaverso() {
   return (
@@ -129,6 +130,7 @@ export default function Metaverso() {
       </CardContent>
     </Card>
     <PostesBlog/>
+    <Cookies/>
     <Footer />
     </div>
     </>

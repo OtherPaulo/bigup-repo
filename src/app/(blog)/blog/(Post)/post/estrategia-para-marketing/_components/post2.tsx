@@ -5,6 +5,7 @@ import Header from "@/components/(LandingPage)/header/_components/header"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import PostesBlog from "@/components/(Blog)/postes/posts/_components/posts"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import Cookies from "@/components/cookies"
 
 export default function EstrategiaPost() {
   return (
@@ -133,6 +134,7 @@ export default function EstrategiaPost() {
       </CardContent>
     </Card>
     <PostesBlog/>
+    <Cookies/>
     <Footer />
     </div>
     </>

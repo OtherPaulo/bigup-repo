@@ -1,10 +1,10 @@
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import Header from "@/components/(LandingPage)/header/_components/header"
 import Footer from "@/components/(LandingPage)/footer/_components/footer"
 import Chat from "@/components/chat/_components/chat"
 import { ExternalLink } from "lucide-react"
+import Cookies from "@/components/cookies"
 
 export default function CaseSection() {
   const cases = [
@@ -91,6 +91,7 @@ export default function CaseSection() {
     </section>
     <Chat/>
     </main>
+    <Cookies/>
     <Footer/>
     </>
   )

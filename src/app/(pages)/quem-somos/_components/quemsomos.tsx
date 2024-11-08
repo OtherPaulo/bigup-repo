@@ -3,6 +3,7 @@ import Header from "@/components/(LandingPage)/header/_components/header";
 import Propositoo from "@/components/(QuemSomos)/propositoo/_components/proposito";
 import QMain from "@/components/(QuemSomos)/qmain/_components/qmain";
 import Chat from "@/components/chat/_components/chat";
+import Cookies from "@/components/cookies";
 import FadeInSection from "@/components/fade-in-section";
 
 export default function QuemSomos() {
@@ -16,6 +17,7 @@ export default function QuemSomos() {
         </FadeInSection>
         <Chat />
         </main>
+        <Cookies/>
         <Footer />
         </>
     )

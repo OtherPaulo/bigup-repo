@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Paulo",
-      url: "https://portifolio.devpaulorodrigues.tech",
+      url: "https://portfolio.devpaulorodrigues.tech",
     },
   ],
   openGraph: {
