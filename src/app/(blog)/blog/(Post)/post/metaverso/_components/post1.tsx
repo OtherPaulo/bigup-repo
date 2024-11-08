@@ -123,7 +123,7 @@ export default function Metaverso() {
             desempenhar papéis centrais na criação de experiências imersivas e personalizadas. À medida que essa
             tecnologia evolui, as empresas que adotam soluções inovadoras estarão melhor posicionadas para se destacar e
             conectar-se com seus clientes de maneira significativa. Se você está pronto para explorar como o metaverso
-            pode transformar suas interações digitais, a [Nome da Sua Empresa] está aqui para ajudar. Entre em contato e
+            pode transformar suas interações digitais, a <span className="font-semibold">Big Deal Marketing</span> está aqui para ajudar. Entre em contato e
             descubra como podemos impulsionar sua presença no metaverso!
           </p>
         </div>

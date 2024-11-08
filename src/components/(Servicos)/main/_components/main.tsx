@@ -10,9 +10,8 @@ export default function MainServices() {
           {/* Title Section */}
           <h1 className="text-xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
           Descubra nossos serviços personalizados para potencializar seus {" "}
-                          <span className="relative">
+                          <span className="relative text-[#AEFF00]">
                           projetos digitais
-                  <span className="absolute bottom-0 md:bottom-0 lg:bottom-2 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
                 </span> 
           </h1>
 
@@ -33,7 +32,7 @@ export default function MainServices() {
             />
           </div> */}
               <img
-              src="/Pgna - SERVIÇOS (parte superior).jpeg"
+              src="/servicoss.jpeg"
               alt="Team collaboration"
               width={600}
               height={400}

@@ -130,7 +130,7 @@ export default function Post3() {
             Ter um site responsivo é uma necessidade no cenário digital atual. Seguindo essas etapas, você pode garantir
             que sua página ofereça uma experiência de usuário excepcional em qualquer dispositivo. Um site bem projetado
             não apenas atrai visitantes, mas também os mantém engajados, aumentando as chances de conversão. Se precisar
-            de ajuda para desenvolver um site responsivo, a [Nome da Sua Empresa] está aqui para ajudar. Entre em
+            de ajuda para desenvolver um site responsivo, a <span className="font-semibold">Big Deal Marketing</span> está aqui para ajudar. Entre em
             contato e vamos construir um site que se destaque!
           </p>
         </div>
