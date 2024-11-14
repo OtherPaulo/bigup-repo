@@ -32,11 +32,10 @@ export default function Propositoo() {
               </a>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
-              <Image
+              <img
                 src="https://firebasestorage.googleapis.com/v0/b/encaixa-ai.appspot.com/o/nosso-proposito.jpeg?alt=media&token=4e8a6b28-9097-4d3b-9a8f-a3e314a76661"
                 alt="Team collaboration"
-                fill
-                className="object-cover"
+                className="object-cover h-full rounded-2xl"
               />
             </div>
           </div>
@@ -44,11 +43,10 @@ export default function Propositoo() {
           {/* Right Column - Image & Features */}
           <div className="space-y-6">
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
-              <Image
-                src="https://firebasestorage.googleapis.com/v0/b/encaixa-ai.appspot.com/o/nosso-proposito2.jpeg?alt=media&token=5e3e13be-df61-4e08-a3e8-e9e510c45287"
-                alt="Office environment"
-                fill
-                className="object-cover"
+              <img
+              src="https://firebasestorage.googleapis.com/v0/b/encaixa-ai.appspot.com/o/nosso-proposito2.jpeg?alt=media&token=5e3e13be-df61-4e08-a3e8-e9e510c45287"
+              alt="Office environment"
+              className="object-cover h-full rounded-2xl"
               />
             </div>
 

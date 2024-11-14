@@ -42,7 +42,7 @@ export default function Main() {
               <div className="flex flex-wrap gap-4">
                 <Link
                   href="/quem-somos"
-                  className="rounded-full flex bg-[#AEFF00] px-4 py-2 md:px-12 md:py-3 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
+                  className="rounded-full flex bg-[#AEFF00] px-4 py-2 md:px-12 md:py-2 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
                 >
                   Quem somos
                   <ArrowUpRight className="w-6 h-6 text-black" />
