@@ -40,11 +40,11 @@ export default function QMain() {
                             
                             <div className="flex flex-wrap gap-4">
                                 <Link
-                                    href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank"
-                                    className="rounded-full flex border border-white/20 bg-transparent px-8 py-3 text-base font-semibold text-white transition-colors hover:bg-white/10"
+                                    href="/cases"
+                                    className="rounded-full flex border border-white/20 bg-transparent px-14 py-2 text-base font-semibold text-white transition-colors hover:bg-[#AEFF00] hover:text-black group"
                                 >
-                                    QUERO UMA REUNIÃO
-                                    <ArrowUpRight className="w-6 h-6 text-white" />
+                                    Saiba mais
+                                    <ArrowUpRight className="w-6 h-6 text-white transition-colors group-hover:text-black" />
                                 </Link>
                             </div>
                         </div>

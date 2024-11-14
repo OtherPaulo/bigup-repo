@@ -64,7 +64,7 @@ export default function ParceriaSection() {
                 ))}
               </ul>
             </div>
-            <a href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank">
+            <a href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank">
             <Button size="lg" className="bg-[#aeff00] rounded-full mt-8 hover:bg-[#aeff00] text-black">
               ENTRE EM CONTATO
             </Button>

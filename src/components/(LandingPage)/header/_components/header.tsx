@@ -41,24 +41,24 @@ export default function Header() {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <Link href="/quem-somos" className="hover:text-gray-300 px-4">QUEM SOMOS</Link>
+                  <Link href="/quem-somos" className="hover:text-gray-300 px-4">Quem somos</Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/servicos" className="hover:text-gray-300 px-4">SERVIÇOS</Link>
+                  <Link href="/servicos" className="hover:text-gray-300 px-4">Serviços</Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/cases" className="hover:text-gray-300 px-4">CASES</Link>
+                  <Link href="/cases" className="hover:text-gray-300 px-4">Cases</Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/blog" className="hover:text-gray-300 px-4">BLOG</Link>
+                  <Link href="/blog" className="hover:text-gray-300 px-4">Blog</Link>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </nav>
 
           <div className="hidden lg:flex items-center">
-            <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] flex text-black px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
-              Entre em Contato
+            <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] flex text-black px-4 py-2 rounded-full hover:bg-[#AEFF00] transition-colors">
+              Entre em contato
               <ArrowUpRight className="w-6 h-6 text-black" />
             </Link>
           </div>
@@ -70,12 +70,12 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden">
           <nav className="flex flex-col space-y-4 px-4 py-6">
-            <Link href="/quem-somos" className="hover:text-gray-300">QUEM SOMOS</Link>
-            <Link href="/servicos" className="hover:text-gray-300">SERVIÇOS</Link>
-            <Link href="/cases" className="hover:text-gray-300">CASES</Link>
-            <Link href="/blog" className="hover:text-gray-300">BLOG</Link>
-            <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-[#ffffff] text-black px-4 py-2 rounded-md hover:bg-[#aeff00] transition-colors text-center">
-              Entre em Contato
+            <Link href="/quem-somos" className="hover:text-gray-300">Quem somos</Link>
+            <Link href="/servicos" className="hover:text-gray-300">Serviços</Link>
+            <Link href="/cases" className="hover:text-gray-300">Cases</Link>
+            <Link href="/blog" className="hover:text-gray-300">Blog</Link>
+            <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#ffffff] text-black px-4 py-2 rounded-md hover:bg-[#aeff00] transition-colors text-center">
+              Entre em contato
             </Link>
           </nav>
         </div>

@@ -17,10 +17,13 @@ export default function Footer() {
             <p className="mb-6">
               <a href="mailto:contato@bigdealmarketing.com.br" className="hover:underline">
               contato@bigdealmarketing.com.br
+              </a> <br />
+              <a href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" className="hover:underline">
+              (11) 91002-9543
               </a>
             </p>
             <div className="hidden lg:flex items-center">
-            {/* <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
+            {/* <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
               Entre em Contato
               <ArrowUpRight className="w-6 h-6 text-black" />
             </Link> */}
@@ -29,14 +32,14 @@ export default function Footer() {
           <div>
             <h3 className="text-base font-semibold mb-4">Links úteis</h3>
             <ul className="space-y-2">
-              <li><Link href="/quem-somos" className="hover:underline">QUEM SOMOS</Link></li>
-              <li><Link href="/servicos" className="hover:underline">SERVIÇOS</Link></li>
-              <li><Link href="/cases" className="hover:underline">CASES</Link></li>
-              <li><Link href="/blog" className="hover:underline">BLOG</Link></li>
+              <li><Link href="/quem-somos" className="hover:underline">Quem somos</Link></li>
+              <li><Link href="/servicos" className="hover:underline">Serviços</Link></li>
+              <li><Link href="/cases" className="hover:underline">Cases</Link></li>
+              <li><Link href="/blog" className="hover:underline">Blog</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-base font-semibold mb-4">Redes Sociais</h3>
+            <h3 className="text-base font-semibold mb-4">Redes sociais</h3>
             <div className="flex space-x-4">
               <Link href="https://www.instagram.com/bigdealmarketing/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Instagram size={24} />

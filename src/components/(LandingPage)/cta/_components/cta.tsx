@@ -26,8 +26,8 @@ export default function CTA() {
           <p className="text-lg mb-8 ">
             Descubra como nossas soluções inovadoras podem transformar seu negócio e expandir seu alcance.
           </p>
-          <Link href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank" rel="noopener noreferrer" className="bg-white font-semibold text-black px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
-              QUERO SABER MAIS
+          <Link href="/cases" className="bg-white font-semibold text-black px-16 py-3 rounded-full hover:bg-[#aeff00] transition-colors">
+              Ver cases
             </Link>
         </div>
         

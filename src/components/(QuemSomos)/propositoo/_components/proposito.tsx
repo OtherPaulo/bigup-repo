@@ -24,7 +24,7 @@ export default function Propositoo() {
             <div className="bg-[#1A1A1A] p-6 rounded-2xl">
               <h3 className="text-xl font-bold mb-4">Potencialize seu Negócio</h3>
               <p className="text-gray-400 mb-4">Estamos sempre disponíveis para nossos clientes</p>
-              <a href="https://api.whatsapp.com/send/?phone=5511953843871" target="_blank">
+              <a href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank">
               <Button variant="ghost" className="group">
                 Fale com um Especialista
                 <ArrowUpRight className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
