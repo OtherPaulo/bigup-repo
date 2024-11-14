@@ -41,16 +41,16 @@ export default function Header() {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <Link href="/quem-somos" className="hover:text-gray-300 px-4">Quem somos</Link>
+                  <Link href="/quem-somos" className="hover:text-gray-300 px-4 py-2">Quem somos</Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/servicos" className="hover:text-gray-300 px-4">Serviços</Link>
+                  <Link href="/servicos" className="hover:text-gray-300 px-4 py-2">Serviços</Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/cases" className="hover:text-gray-300 px-4">Cases</Link>
+                  <Link href="/cases" className="hover:text-gray-300 px-4 py-2">Cases</Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/blog" className="hover:text-gray-300 px-4">Blog</Link>
+                  <Link href="/blog" className="hover:text-gray-300 px-4 py-2">Blog</Link>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
