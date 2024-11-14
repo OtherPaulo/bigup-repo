@@ -35,7 +35,7 @@ export default function Propositoo() {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/encaixa-ai.appspot.com/o/nosso-proposito.jpeg?alt=media&token=4e8a6b28-9097-4d3b-9a8f-a3e314a76661"
                 alt="Team collaboration"
-                className="object-cover h-full rounded-2xl"
+                className="object-cover w-full h-full rounded-2xl"
               />
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Propositoo() {
               <img
               src="https://firebasestorage.googleapis.com/v0/b/encaixa-ai.appspot.com/o/nosso-proposito2.jpeg?alt=media&token=5e3e13be-df61-4e08-a3e8-e9e510c45287"
               alt="Office environment"
-              className="object-cover h-full rounded-2xl"
+              className="object-cover w-full h-full rounded-2xl"
               />
             </div>
 
