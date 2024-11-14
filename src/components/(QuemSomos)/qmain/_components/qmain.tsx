@@ -41,7 +41,7 @@ export default function QMain() {
                             <div className="flex flex-wrap gap-4">
                                 <Link
                                     href="/cases"
-                                    className="rounded-full flex border border-white/20 bg-transparent px-14 py-2 text-base font-semibold text-white transition-colors hover:bg-[#AEFF00] hover:text-black group"
+                                    className="rounded-full flex border border-white/20 bg-transparent px-4 md:px-14 py-2 text-base font-semibold text-white transition-colors hover:bg-[#AEFF00] hover:text-black group"
                                 >
                                     Saiba mais
                                     <ArrowUpRight className="w-6 h-6 text-white transition-colors group-hover:text-black" />

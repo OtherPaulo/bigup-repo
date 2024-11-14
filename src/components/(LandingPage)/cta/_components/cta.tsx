@@ -26,7 +26,7 @@ export default function CTA() {
           <p className="text-lg mb-8 ">
             Descubra como nossas soluções inovadoras podem transformar seu negócio e expandir seu alcance.
           </p>
-          <Link href="/cases" className="bg-white font-semibold text-black px-16 py-3 rounded-full hover:bg-[#aeff00] transition-colors">
+          <Link href="/cases" className="bg-white font-semibold text-black px-4 md:px-16 py-3 rounded-full hover:bg-[#aeff00] transition-colors">
               Ver cases
             </Link>
         </div>
