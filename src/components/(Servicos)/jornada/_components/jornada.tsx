@@ -14,7 +14,7 @@ export default function NossaJornada() {
             <div className="bg-primary-100 p-3 rounded-full">
               <Lightbulb className="w-6 h-6 text-primary-600" />
             </div>
-            <h3 className="text-2xl font-semibold text-[#AEFF00]">Definir</h3>
+            <h3 className="text-2xl font-semibold text-[#ff6d1f]">Definir</h3>
           </div>
           <p className="text-white dark:text-neutral-200 text-lg md:text-lg font-normal mb-4">
             Através de um trabalho consultivo, ajudamos nossos clientes a definir as estratégias necessárias para executar seu projeto. Esta etapa é dividida em duas categorias essenciais:
@@ -44,7 +44,7 @@ export default function NossaJornada() {
             <div className="bg-primary-100 p-3 rounded-full">
               <Code className="w-6 h-6 text-primary-600" />
             </div>
-            <h3 className="text-2xl font-semibold text-[#AEFF00]">Desenvolver</h3>
+            <h3 className="text-2xl font-semibold text-[#ff6d1f]">Desenvolver</h3>
           </div>
           <p className="text-white dark:text-neutral-200 text-lg md:text-lg font-normal mb-8">
             Nesta etapa orientamos o cliente para a escolha do serviço que atenderá integralmente sua demanda, levando em consideração seus objetivos, prazos e orçamento:
@@ -76,7 +76,7 @@ export default function NossaJornada() {
             <div className="bg-primary-100 p-3 rounded-full">
               <BarChart className="w-6 h-6 text-primary-600" />
             </div>
-            <h3 className="text-2xl font-semibold text-[#AEFF00]">Evolução/otimização</h3>
+            <h3 className="text-2xl font-semibold text-[#ff6d1f]">Evolução/otimização</h3>
           </div>
           <p className="text-white dark:text-neutral-200 text-lg md:text-lg font-normal mb-4">
             Iniciamos com uma avaliação detalhada do projeto atual, identificando pontos fortes, áreas de melhoria e oportunidades de crescimento.

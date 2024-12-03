@@ -83,7 +83,7 @@ export function PrivacidadeModalCookies() {
                             </div>
                         </div>
                         <div className="border-t p-6">
-                        <Button onClick={() => setIsOpen(false)} className="w-full text-black bg-[#AEFF00] hover:bg-[#AEFF00]">Fechar</Button>
+                        <Button onClick={() => setIsOpen(false)} className="w-full text-black bg-[#ff6d1f] hover:bg-[#ff6d1f]">Fechar</Button>
                         </div>
                     </div>
                 </div>

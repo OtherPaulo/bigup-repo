@@ -77,7 +77,7 @@ export default function CaseSection() {
             <Button
               variant="outline"
               size="sm"
-              className="gap-2 hover:bg-[#aeff00]"
+              className="gap-2 hover:text-white hover:bg-[#ff6d1f]"
             >
               Visualizar
               <ExternalLink className="h-4 w-4" />

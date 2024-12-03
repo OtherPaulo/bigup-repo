@@ -42,7 +42,7 @@ export default function PostsBlog() {
     <div className="container mx-auto mb-8  md:py-8 px-4">
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
       <div className="mb-4 md:mb-0">
-      <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mt-8 mb-8">POSTS</div>
+      <div className="inline-block bg-[#ff6d1f]/60 text-black text-sm font-medium px-3 py-1 rounded-full mt-8 mb-8">POSTS</div>
       <h1 className="text-3xl font-bold text-gray-900">Acompanhe nossos conteúdos</h1>
       </div>
     </div>
@@ -56,11 +56,11 @@ export default function PostsBlog() {
                   alt={post.title}
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
-                <div className="absolute top-4 left-4 rounded-full bg-[#aeff00]/90 text-black px-2 py-1 text-sm font-semibold">
+                <div className="absolute top-4 left-4 rounded-full bg-[#ff6d1f]/90 text-black px-2 py-1 text-sm font-semibold">
                   {post.date}
                 </div>
               </div>
-              <div className="group-hover:bg-[#aeff00]/90 transition-colors duration-300">
+              <div className="group-hover:bg-[#ff6d1f]/90 transition-colors duration-300">
                 <CardHeader>
                   <h3 className="text-lg font-semibold mb-2 group-hover:text-black transition-colors duration-300">{post.title}</h3>
                   <p className="text-gray-600 group-hover:text-black transition-colors duration-300">{post.description}</p>

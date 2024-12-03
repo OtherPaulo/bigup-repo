@@ -51,7 +51,7 @@ import {
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="mb-16">
-          <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mb-8">NOSSO DIFERENCIAL</div>
+          <div className="inline-block bg-[#ff6d1f] text-white text-sm font-medium px-3 py-1 rounded-full mb-8">Nosso Diferencial</div>
 
             <h3 className="text-xl md:text-4xl font-bold">
               Como potencializamos nossas entregas
@@ -65,8 +65,8 @@ import {
                 className="relative p-6 bg-white rounded-lg border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="absolute -top-6 left-1/2 -translate-x-1/2">
-                  <div className="w-12 h-12 rounded-full bg-[#C1FF02] flex items-center justify-center border-2 border-[#C1FF02]">
-                    <differential.icon className="w-6 h-6 text-[#000000]" />
+                  <div className="w-12 h-12 rounded-full bg-[#ff6d1f] flex items-center justify-center border-2 border-[#ff6d1f]">
+                    <differential.icon className="w-6 h-6 text-[#ffffff]" />
                   </div>
                 </div>
                 <div className="pt-8 text-center">

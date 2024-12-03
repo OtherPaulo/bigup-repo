@@ -93,7 +93,7 @@ export default function FeaturedPostsCarousel() {
                                                     />
                                                 </div>
                                                 <div className="p-8">
-                                                    <div className="inline-block rounded-full bg-[#aeff00]/90 text-black px-2 py-1 text-sm font-semibold">
+                                                    <div className="inline-block rounded-full bg-[#ff6d1f]/90 text-black px-2 py-1 text-sm font-semibold">
                                                         {post.date}
                                                     </div>
                                                     <div className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">

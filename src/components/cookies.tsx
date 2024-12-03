@@ -41,7 +41,7 @@ export default function Cookies() {
           </span>
           <Button
             onClick={handleAccept}
-            className="bg-[#AEFF00] text-black hover:bg-[#AEFF00]"
+            className="bg-[#ff6d1f] text-black hover:bg-[#ff6d1f]"
             size="sm"
           >
             Concordar e fechar

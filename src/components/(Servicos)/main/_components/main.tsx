@@ -4,13 +4,13 @@ export default function MainServices() {
   return (
     <section className="bg-black text-white py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
-      <div className="inline-block bg-[#AEFF00] text-black text-sm font-medium px-3 py-1 rounded-full mt-8 mb-8">#SERVIÇOS</div>
+      <div className="inline-block bg-[#ff6d1f] text-white text-sm font-medium px-3 py-1 rounded-full mt-8 mb-8">Serviços</div>
 
         <div className=" mx-auto">
           {/* Title Section */}
           <h1 className="text-xl md:text-4xl font-bold mb-8 text-white drop-shadow-sm">
           Descubra nossos serviços personalizados para potencializar seus {" "}
-                          <span className="relative text-[#AEFF00]">
+                          <span className="relative text-[#ff6d1f]">
                           projetos digitais
                 </span> 
           </h1>

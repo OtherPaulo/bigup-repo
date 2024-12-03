@@ -56,12 +56,12 @@ export default function Header() {
             </NavigationMenu>
           </nav>
 
-          <div className="hidden lg:flex items-center">
-            <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] flex text-black px-4 py-2 rounded-full hover:bg-[#AEFF00] transition-colors">
+            <div className="hidden lg:flex items-center">
+            <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] flex text-black hover:text-white px-4 py-2 rounded-full hover:bg-[#ff6d1f] transition-colors group">
               Entre em contato
-              <ArrowUpRight className="w-6 h-6 text-black" />
+              <ArrowUpRight className="w-6 h-6 text-black group-hover:text-white" />
             </Link>
-          </div>
+            </div>
           <button className="lg:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -74,7 +74,7 @@ export default function Header() {
             <Link href="/servicos" className="hover:text-gray-300">Serviços</Link>
             <Link href="/cases" className="hover:text-gray-300">Cases</Link>
             <Link href="/blog" className="hover:text-gray-300">Blog</Link>
-            <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#ffffff] text-black px-4 py-2 rounded-md hover:bg-[#aeff00] transition-colors text-center">
+            <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#ffffff] text-black px-4 py-2 rounded-md hover:bg-[#ff6d1f] transition-colors text-center">
               Entre em contato
             </Link>
           </nav>

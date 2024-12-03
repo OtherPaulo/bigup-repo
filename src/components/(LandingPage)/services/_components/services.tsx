@@ -3,22 +3,22 @@ import { Award, ShoppingCart, Play, Headset } from 'lucide-react'
 export default function ServicesSection() {
   const services = [
     {
-      icon: <Award className="w-12 h-12 text-[#AEFF00]" />,
+      icon: <Award className="w-12 h-12 text-[#ff6d1f]" />,
       title: "Branding",
       description: "Desenvolvemos estratégias personalizadas que incluem análise de mercado, posicionamento e diferenciação, para que sua marca se destaque da concorrência."
     },
     {
-      icon: <ShoppingCart className="w-12 h-12 text-[#AEFF00]" />,
+      icon: <ShoppingCart className="w-12 h-12 text-[#ff6d1f]" />,
       title: "E–commerce",
       description: "Elaboramos projetos de implementação e evolução, layouts intuitivos e responsivos que oferecem uma experiência de compra excepcional."
     },
     {
-      icon: <Play className="w-12 h-12 text-[#AEFF00]" />,
+      icon: <Play className="w-12 h-12 text-[#ff6d1f]" />,
       title: "Social Media",
       description: "Cuidamos da sua presença em plataformas como Instagram, Facebook, Twitter e LinkedIn, criando uma estratégia personalizada que se alinha aos seus objetivos."
     },
     {
-      icon: <Headset className="w-12 h-12 text-[#AEFF00]" />,
+      icon: <Headset className="w-12 h-12 text-[#ff6d1f]" />,
       title: "Suporte e Consultoria",
       description: "Analisamos seu negócio e mercado para desenvolver uma estratégia personalizada que se alinha aos seus objetivos e público-alvo."
     }
@@ -28,7 +28,7 @@ export default function ServicesSection() {
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-left mb-8">
-        <div className="inline-block bg-[#AEFF00]/60 text-black text-sm font-medium px-3 py-1 rounded-full mb-8">Serviços</div>
+        <div className="inline-block bg-[#ff6d1f]/60 text-white text-sm font-medium px-3 py-1 rounded-full mb-8">Serviços</div>
         <h3 className="text-xl md:text-4xl font-bold text-gray-900">
         Nossa Paleta de Especialização
           </h3>

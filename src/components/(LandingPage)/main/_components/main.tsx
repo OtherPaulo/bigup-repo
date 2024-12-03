@@ -32,7 +32,7 @@ export default function Main() {
                 IMPULSIONAMOS SUA MARCA COM{" "}
                 <span className="relative">
                   ESTRATÉGIAS DIGITAIS
-                  <span className="absolute bottom-0 left-0 h-[2px] w-full bg-[#AEFF00]"></span>
+                  <span className="absolute bottom-0 left-0 h-[2px] w-full bg-[#ff6d1f]"></span>
                 </span>
                 </h1>
                 <h2 className="text-base sm:text-lg md:text-lg">
@@ -42,10 +42,10 @@ export default function Main() {
               <div className="flex flex-wrap gap-4">
                 <Link
                   href="/quem-somos"
-                  className="rounded-full flex bg-[#AEFF00] px-4 py-2 md:px-12 md:py-2 text-base font-semibold text-black transition-colors hover:bg-[#9EEF00]"
+                  className="rounded-full flex bg-[#ff6d1f] px-4 py-2 md:px-12 md:py-2 text-base font-semibold text-white transition-colors hover:bg-[#ff6d1f]"
                 >
                   Quem somos
-                  <ArrowUpRight className="w-6 h-6 text-black" />
+                  <ArrowUpRight className="w-6 h-6 text-white " />
                 </Link>
               </div>
             </div>

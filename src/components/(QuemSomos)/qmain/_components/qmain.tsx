@@ -27,7 +27,7 @@ export default function QMain() {
 
                     <div className="grid gap-8 md:grid-cols-2 md:gap-12">
                         <div className="space-y-6 z-10">
-                            <h1 className="text-2xl font-bold text-[#AEFF00] leading-tight md:text-lg lg:text-4xl">
+                            <h1 className="text-2xl font-bold text-[#ff6d1f] leading-tight md:text-lg lg:text-4xl">
                                 WE THINK BIG! 
                             </h1>
                             <p className="text-lg text-white leading-relaxed">
@@ -41,10 +41,10 @@ export default function QMain() {
                             <div className="flex flex-wrap gap-4">
                                 <Link
                                     href="/cases"
-                                    className="rounded-full flex border border-white/20 bg-transparent px-4 md:px-14 py-2 text-base font-semibold text-white transition-colors hover:bg-[#AEFF00] hover:text-black group"
+                                    className="rounded-full flex border border-white/20 bg-transparent px-4 md:px-14 py-2 text-base font-semibold text-white transition-colors hover:bg-[#ff6d1f]"
                                 >
                                     Saiba mais
-                                    <ArrowUpRight className="w-6 h-6 text-white transition-colors group-hover:text-black" />
+                                    <ArrowUpRight className="w-6 h-6 text-white " />
                                 </Link>
                             </div>
                         </div>

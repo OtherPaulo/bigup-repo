@@ -23,7 +23,7 @@ export default function Footer() {
               </a>
             </p>
             <div className="hidden lg:flex items-center">
-            {/* <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#aeff00] transition-colors">
+            {/* <Link href="https://api.whatsapp.com/send/?phone=5511910029543" target="_blank" rel="noopener noreferrer" className="bg-[#FFFFFF] text-black flex z-10 px-4 py-2 rounded-full hover:bg-[#ff6d1f] transition-colors">
               Entre em Contato
               <ArrowUpRight className="w-6 h-6 text-black" />
             </Link> */}
