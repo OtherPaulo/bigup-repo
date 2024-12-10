@@ -19,8 +19,8 @@ export default function ServicesSection() {
     },
     {
       icon: <Headset className="w-12 h-12 text-[#ff6d1f]" />,
-      title: "Suporte e Consultoria",
-      description: "Analisamos seu negócio e mercado para desenvolver uma estratégia personalizada que se alinha aos seus objetivos e público-alvo."
+      title: "Audiovisual",
+      description: "Oferecemos serviços audiovisuais, vídeos 3D, animações e produção de conteúdo criativo para eventos."
     }
   ]
 

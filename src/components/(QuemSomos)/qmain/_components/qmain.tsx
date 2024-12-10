@@ -28,14 +28,19 @@ export default function QMain() {
                     <div className="grid gap-8 md:grid-cols-2 md:gap-12">
                         <div className="space-y-6 z-10">
                             <h1 className="text-2xl font-bold text-[#ff6d1f] leading-tight md:text-lg lg:text-4xl">
-                                WE THINK BIG! 
+                            Quem somos
                             </h1>
-                            <p className="text-lg text-white leading-relaxed">
-                            Somos especializados em fornecer soluções de ponta e sob medida para suas necessidades. Não importa o que você esteja procurando, nós temos a solução.
+                            <p className="text-xl text-white font-bold leading-relaxed">
+                            CONSULTORIA EM INOVAÇÃO TECNOLÓGICA
                             </p>
                             <p className="text-lg text-white leading-relaxed">
-                            Na intersecção entre visão e execução, trazemos ideias criativas e uma equipe que transforma conceitos em narrativas atraentes.
+                            A <span className="text-orange-500 text-bold">Big Deal Marketing</span>, é uma empresa especializada em <span className="text-orange-500 text-bold">marketing digital</span>, 
+                            tecnologia e <span className="text-orange-500 text-bold">audiovisual</span>.
                             </p>
+                            <h1>Sabemos que muitas empresas <span className="text-orange-500 text-bold">enfrentam dificuldades</span> para se conectar com seu
+                            público de forma eficaz, especialmente em um ambiente digital em constante mudança.</h1>
+                            <h2>Por este motivo, <span className="text-orange-500 text-bold">orientamos empresas</span> a encontrarem a sua essência e aproveitarem
+                            oportunidades para se diferenciar, crescer e <span className="text-orange-500 text-bold">modernizar a sua marca.</span> </h2>
                             <FlipWords words={words} className="text-base md:text-lg lg:text-lg" />
                             
                             <div className="flex flex-wrap gap-4">
