@@ -44,9 +44,9 @@ export default function Footer() {
               <Link href="https://www.instagram.com/bigdealmarketing/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Instagram size={24} />
               </Link>
-              <Link href="https://web.facebook.com/people/Big-Deal-Marketing/61567310259741/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              {/* <Link href="https://web.facebook.com/people/Big-Deal-Marketing/61567310259741/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Facebook size={24} />
-              </Link>
+              </Link> */}
               <Link href="https://www.linkedin.com/company/agenciabigdeal/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Linkedin size={24} />
               </Link>
