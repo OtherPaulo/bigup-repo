@@ -44,6 +44,24 @@ export default function CaseSection() {
       href: "https://www.agorafacilita.com/",
       type: "E-commerce",
     },
+    {
+      img: '/ferro&pedra.png',
+      name: 'Ferro e Pedra Home ',
+      type: 'Tray E-commerce 2024',
+      href: 'https://www.ferroepedra.com.br/'
+    },
+    {
+      img: '/desenharia.png',
+      name: 'Desenharia Brasil',
+      type: 'E-commerce Shopify 2024',
+      href: 'https://desenhariabrasil.com.br/'
+    },
+    {
+      img: '/caderno-criativo.png',
+      name: 'Caderno Criativo',
+      type: 'Tray E-commerce 2024',
+      href: 'https://www.cadernocriativo.com/'
+    }
   ]
 
   return (

@@ -41,6 +41,27 @@ export default function ProductGrid() {
             title: 'AGORA FACILITA 2024',
             subtitle: 'E-commerce, funcionalidades personalizadas',
             url: 'https://agorafacilita.com/'
+        },
+        {
+            img: '/ferro&pedra.png',
+            alt: 'Ferro e Pedra Home ',
+            title: 'Ferro e Pedra Home',
+            subtitle: 'Tray E-commerce 2024',
+            url: 'https://www.ferroepedra.com.br/'
+        },
+        {
+            img: '/desenharia.png',
+            alt: 'Desenharia Brasil',
+            title: 'Desenharia Brasil',
+            subtitle: 'E-commerce Shopify 2024',
+            url: 'https://desenhariabrasil.com.br/'
+        },
+        {
+            img: '/caderno-criativo.png',
+            alt: 'Desenharia Brasil',
+            title: 'Desenharia Brasil',
+            subtitle: 'Tray E-commerce 2024',
+            url: 'https://desenhariabrasil.com.br/'
         }
     ]
 
